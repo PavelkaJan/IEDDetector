@@ -1,0 +1,1007 @@
+ SimulatedTemplateP143Ver5LocTL1SuperificialSNR0,
+ SimulatedTemplateP143Ver6LocIn10DeepSNR0,
+ SimulatedHealthySubject13Theta,
+ SimulatedHealthySubject44Delta,
+ SimulatedHealthySubject17Theta,
+ SimulatedHealthySubject09Theta,
+ SimulatedHealthySubject50Delta,
+ SimulatedHealthySubject51Delta]
+  Test Set:
+[SimulatedTemplateP315Ver1LocFL10SuperficialSNR0,
+ SimulatedTemplateP315Ver2LocFL18DeepSNR0,
+ SimulatedTemplateP315Ver3LocPL8DeepSNR0,
+ SimulatedTemplateP315Ver4LocOL5SuperficialSNR0,
+ SimulatedTemplateP315Ver5LocTL6SuperficialSNR0,
+ SimulatedTemplateP315Ver6LocIn6DeepSNR0,
+ SimulatedHealthySubject16Theta,
+ SimulatedHealthySubject47Delta,
+ SimulatedHealthySubject21Theta,
+ SimulatedHealthySubject57Delta,
+ SimulatedHealthySubject11Theta,
+ SimulatedHealthySubject39Theta]
+
+
+Fold 7:
+  Train Set:
+[SimulatedTemplateP311Ver1LocFL6SuperficialSNR0,
+ SimulatedTemplateP311Ver2LocFL7SuperficialSNR0,
+ SimulatedTemplateP311Ver3LocPL3SuperficialSNR0,
+ SimulatedTemplateP311Ver4LocOL9DeepSNR0,
+ SimulatedTemplateP311Ver5LocTL4SuperficialSNR0,
+ SimulatedTemplateP311Ver6LocIn3DeepSNR0,
+ SimulatedHealthySubject27Theta,
+ SimulatedHealthySubject35Theta,
+ SimulatedHealthySubject28Theta,
+ SimulatedHealthySubject12Theta,
+ SimulatedHealthySubject02Theta,
+ SimulatedHealthySubject49Delta,
+ SimulatedTemplateP310Ver1LocFL4SuperficialSNR0,
+ SimulatedTemplateP310Ver2LocFL5SuperficialSNR0,
+ SimulatedTemplateP310Ver3LocPL9DeepSNR0,
+ SimulatedTemplateP310Ver4LocOL2SuperficialSNR0,
+ SimulatedTemplateP310Ver5LocTL3SuperficialSNR0,
+ SimulatedTemplateP310Ver6LocIn2DeepSNR0,
+ SimulatedHealthySubject43Delta,
+ SimulatedHealthySubject31Theta,
+ SimulatedHealthySubject48Delta,
+ SimulatedHealthySubject60Delta,
+ SimulatedHealthySubject46Delta,
+ SimulatedHealthySubject22Theta,
+ SimulatedTemplateP317Ver1LocFL11SuperficialSNR0,
+ SimulatedTemplateP317Ver2LocFL12SuperficialSNR0,
+ SimulatedTemplateP317Ver3LocPL6SuperficialSNR0,
+ SimulatedTemplateP317Ver4LocOL6SuperficialSNR0,
+ SimulatedTemplateP317Ver5LocTL9DeepSNR0,
+ SimulatedTemplateP317Ver6LocIn7DeepSNR0,
+ SimulatedHealthySubject14Theta,
+ SimulatedHealthySubject45Delta,
+ SimulatedHealthySubject33Theta,
+ SimulatedHealthySubject06Theta,
+ SimulatedHealthySubject29Theta,
+ SimulatedHealthySubject19Theta,
+ SimulatedTemplateP249Ver1LocFL3SuperficialSNR0,
+ SimulatedTemplateP249Ver2LocFL15DeepSNR0,
+ SimulatedTemplateP249Ver3LocPL2SuperficialSNR0,
+ SimulatedTemplateP249Ver4LocOL1SuperficialSNR0,
+ SimulatedTemplateP249Ver5LocTL2SuperficialSNR0,
+ SimulatedTemplateP249Ver6LocIn1DeepSNR0,
+ SimulatedHealthySubject54Delta,
+ SimulatedHealthySubject03Theta,
+ SimulatedHealthySubject40Theta,
+ SimulatedHealthySubject04Theta,
+ SimulatedHealthySubject05Theta,
+ SimulatedHealthySubject36Theta,
+ SimulatedTemplateP323Ver1LocFL14SuperficialSNR0,
+ SimulatedTemplateP323Ver2LocFL20DeepSNR0,
+ SimulatedTemplateP323Ver3LocPL10DeepSNR0,
+ SimulatedTemplateP323Ver4LocOL8DeepSNR0,
+ SimulatedTemplateP323Ver5LocTL10DeepSNR0,
+ SimulatedTemplateP323Ver6LocIn9DeepSNR0,
+ SimulatedHealthySubject52Delta,
+ SimulatedHealthySubject18Theta,
+ SimulatedHealthySubject07Theta,
+ SimulatedHealthySubject20Theta,
+ SimulatedHealthySubject25Theta,
+ SimulatedHealthySubject23Theta,
+ SimulatedTemplateP315Ver1LocFL10SuperficialSNR0,
+ SimulatedTemplateP315Ver2LocFL18DeepSNR0,
+ SimulatedTemplateP315Ver3LocPL8DeepSNR0,
+ SimulatedTemplateP315Ver4LocOL5SuperficialSNR0,
+ SimulatedTemplateP315Ver5LocTL6SuperficialSNR0,
+ SimulatedTemplateP315Ver6LocIn6DeepSNR0,
+ SimulatedHealthySubject16Theta,
+ SimulatedHealthySubject47Delta,
+ SimulatedHealthySubject21Theta,
+ SimulatedHealthySubject57Delta,
+ SimulatedHealthySubject11Theta,
+ SimulatedHealthySubject39Theta,
+ SimulatedTemplateP322Ver1LocFL13SuperficialSNR0,
+ SimulatedTemplateP322Ver2LocFL19DeepSNR0,
+ SimulatedTemplateP322Ver3LocPL7SuperficialSNR0,
+ SimulatedTemplateP322Ver4LocOL7SuperficialSNR0,
+ SimulatedTemplateP322Ver5LocTL7SuperficialSNR0,
+ SimulatedTemplateP322Ver6LocInDeepSNR0,
+ SimulatedHealthySubject01Theta,
+ SimulatedHealthySubject24Theta,
+ SimulatedHealthySubject55Delta,
+ SimulatedHealthySubject53Delta,
+ SimulatedHealthySubject37Theta,
+ SimulatedHealthySubject38Theta,
+ SimulatedTemplateP314Ver1LocFL9SuperficialSNR0,
+ SimulatedTemplateP314Ver2LocFL17DeepSNR0,
+ SimulatedTemplateP314Ver3LocPL5SuperficialSNR0,
+ SimulatedTemplateP314Ver4LocOL4SuperficialSNR0,
+ SimulatedTemplateP314Ver5LocTL8DeepSNR0,
+ SimulatedTemplateP314Ver6LocIn5DeepSNR0,
+ SimulatedHealthySubject56Delta,
+ SimulatedHealthySubject34Theta,
+ SimulatedHealthySubject15Theta,
+ SimulatedHealthySubject41Delta,
+ SimulatedHealthySubject26Theta,
+ SimulatedHealthySubject30Theta,
+ SimulatedTemplateP143Ver1LocFL1SuperficialSNR0,
+ SimulatedTemplateP143Ver2LocFL2SuperficialSNR0,
+ SimulatedTemplateP143Ver3LocPL1SuperficialSNR0,
+ SimulatedTemplateP143Ver4LocOL10DeepSNR0,
+ SimulatedTemplateP143Ver5LocTL1SuperificialSNR0,
+ SimulatedTemplateP143Ver6LocIn10DeepSNR0,
+ SimulatedHealthySubject13Theta,
+ SimulatedHealthySubject44Delta,
+ SimulatedHealthySubject17Theta,
+ SimulatedHealthySubject09Theta,
+ SimulatedHealthySubject50Delta,
+ SimulatedHealthySubject51Delta]
+  Test Set:
+[SimulatedTemplateP312Ver1LocFL8SuperficialSNR0,
+ SimulatedTemplateP312Ver2LocFL16DeepSNR0,
+ SimulatedTemplateP312Ver3LocPL4SuperficialSNR0,
+ SimulatedTemplateP312Ver4LocOL3SuperficialSNR0,
+ SimulatedTemplateP312Ver5LocTL5SuperficialSNR0,
+ SimulatedTemplateP312Ver6LocIn4DeepSNR0,
+ SimulatedHealthySubject58Delta,
+ SimulatedHealthySubject10Theta,
+ SimulatedHealthySubject08Theta,
+ SimulatedHealthySubject42Delta,
+ SimulatedHealthySubject32Theta,
+ SimulatedHealthySubject59Delta]
+
+
+Fold 8:
+  Train Set:
+[SimulatedTemplateP311Ver1LocFL6SuperficialSNR0,
+ SimulatedTemplateP311Ver2LocFL7SuperficialSNR0,
+ SimulatedTemplateP311Ver3LocPL3SuperficialSNR0,
+ SimulatedTemplateP311Ver4LocOL9DeepSNR0,
+ SimulatedTemplateP311Ver5LocTL4SuperficialSNR0,
+ SimulatedTemplateP311Ver6LocIn3DeepSNR0,
+ SimulatedHealthySubject27Theta,
+ SimulatedHealthySubject35Theta,
+ SimulatedHealthySubject28Theta,
+ SimulatedHealthySubject12Theta,
+ SimulatedHealthySubject02Theta,
+ SimulatedHealthySubject49Delta,
+ SimulatedTemplateP310Ver1LocFL4SuperficialSNR0,
+ SimulatedTemplateP310Ver2LocFL5SuperficialSNR0,
+ SimulatedTemplateP310Ver3LocPL9DeepSNR0,
+ SimulatedTemplateP310Ver4LocOL2SuperficialSNR0,
+ SimulatedTemplateP310Ver5LocTL3SuperficialSNR0,
+ SimulatedTemplateP310Ver6LocIn2DeepSNR0,
+ SimulatedHealthySubject43Delta,
+ SimulatedHealthySubject31Theta,
+ SimulatedHealthySubject48Delta,
+ SimulatedHealthySubject60Delta,
+ SimulatedHealthySubject46Delta,
+ SimulatedHealthySubject22Theta,
+ SimulatedTemplateP317Ver1LocFL11SuperficialSNR0,
+ SimulatedTemplateP317Ver2LocFL12SuperficialSNR0,
+ SimulatedTemplateP317Ver3LocPL6SuperficialSNR0,
+ SimulatedTemplateP317Ver4LocOL6SuperficialSNR0,
+ SimulatedTemplateP317Ver5LocTL9DeepSNR0,
+ SimulatedTemplateP317Ver6LocIn7DeepSNR0,
+ SimulatedHealthySubject14Theta,
+ SimulatedHealthySubject45Delta,
+ SimulatedHealthySubject33Theta,
+ SimulatedHealthySubject06Theta,
+ SimulatedHealthySubject29Theta,
+ SimulatedHealthySubject19Theta,
+ SimulatedTemplateP249Ver1LocFL3SuperficialSNR0,
+ SimulatedTemplateP249Ver2LocFL15DeepSNR0,
+ SimulatedTemplateP249Ver3LocPL2SuperficialSNR0,
+ SimulatedTemplateP249Ver4LocOL1SuperficialSNR0,
+ SimulatedTemplateP249Ver5LocTL2SuperficialSNR0,
+ SimulatedTemplateP249Ver6LocIn1DeepSNR0,
+ SimulatedHealthySubject54Delta,
+ SimulatedHealthySubject03Theta,
+ SimulatedHealthySubject40Theta,
+ SimulatedHealthySubject04Theta,
+ SimulatedHealthySubject05Theta,
+ SimulatedHealthySubject36Theta,
+ SimulatedTemplateP323Ver1LocFL14SuperficialSNR0,
+ SimulatedTemplateP323Ver2LocFL20DeepSNR0,
+ SimulatedTemplateP323Ver3LocPL10DeepSNR0,
+ SimulatedTemplateP323Ver4LocOL8DeepSNR0,
+ SimulatedTemplateP323Ver5LocTL10DeepSNR0,
+ SimulatedTemplateP323Ver6LocIn9DeepSNR0,
+ SimulatedHealthySubject52Delta,
+ SimulatedHealthySubject18Theta,
+ SimulatedHealthySubject07Theta,
+ SimulatedHealthySubject20Theta,
+ SimulatedHealthySubject25Theta,
+ SimulatedHealthySubject23Theta,
+ SimulatedTemplateP315Ver1LocFL10SuperficialSNR0,
+ SimulatedTemplateP315Ver2LocFL18DeepSNR0,
+ SimulatedTemplateP315Ver3LocPL8DeepSNR0,
+ SimulatedTemplateP315Ver4LocOL5SuperficialSNR0,
+ SimulatedTemplateP315Ver5LocTL6SuperficialSNR0,
+ SimulatedTemplateP315Ver6LocIn6DeepSNR0,
+ SimulatedHealthySubject16Theta,
+ SimulatedHealthySubject47Delta,
+ SimulatedHealthySubject21Theta,
+ SimulatedHealthySubject57Delta,
+ SimulatedHealthySubject11Theta,
+ SimulatedHealthySubject39Theta,
+ SimulatedTemplateP312Ver1LocFL8SuperficialSNR0,
+ SimulatedTemplateP312Ver2LocFL16DeepSNR0,
+ SimulatedTemplateP312Ver3LocPL4SuperficialSNR0,
+ SimulatedTemplateP312Ver4LocOL3SuperficialSNR0,
+ SimulatedTemplateP312Ver5LocTL5SuperficialSNR0,
+ SimulatedTemplateP312Ver6LocIn4DeepSNR0,
+ SimulatedHealthySubject58Delta,
+ SimulatedHealthySubject10Theta,
+ SimulatedHealthySubject08Theta,
+ SimulatedHealthySubject42Delta,
+ SimulatedHealthySubject32Theta,
+ SimulatedHealthySubject59Delta,
+ SimulatedTemplateP314Ver1LocFL9SuperficialSNR0,
+ SimulatedTemplateP314Ver2LocFL17DeepSNR0,
+ SimulatedTemplateP314Ver3LocPL5SuperficialSNR0,
+ SimulatedTemplateP314Ver4LocOL4SuperficialSNR0,
+ SimulatedTemplateP314Ver5LocTL8DeepSNR0,
+ SimulatedTemplateP314Ver6LocIn5DeepSNR0,
+ SimulatedHealthySubject56Delta,
+ SimulatedHealthySubject34Theta,
+ SimulatedHealthySubject15Theta,
+ SimulatedHealthySubject41Delta,
+ SimulatedHealthySubject26Theta,
+ SimulatedHealthySubject30Theta,
+ SimulatedTemplateP143Ver1LocFL1SuperficialSNR0,
+ SimulatedTemplateP143Ver2LocFL2SuperficialSNR0,
+ SimulatedTemplateP143Ver3LocPL1SuperficialSNR0,
+ SimulatedTemplateP143Ver4LocOL10DeepSNR0,
+ SimulatedTemplateP143Ver5LocTL1SuperificialSNR0,
+ SimulatedTemplateP143Ver6LocIn10DeepSNR0,
+ SimulatedHealthySubject13Theta,
+ SimulatedHealthySubject44Delta,
+ SimulatedHealthySubject17Theta,
+ SimulatedHealthySubject09Theta,
+ SimulatedHealthySubject50Delta,
+ SimulatedHealthySubject51Delta]
+  Test Set:
+[SimulatedTemplateP322Ver1LocFL13SuperficialSNR0,
+ SimulatedTemplateP322Ver2LocFL19DeepSNR0,
+ SimulatedTemplateP322Ver3LocPL7SuperficialSNR0,
+ SimulatedTemplateP322Ver4LocOL7SuperficialSNR0,
+ SimulatedTemplateP322Ver5LocTL7SuperficialSNR0,
+ SimulatedTemplateP322Ver6LocInDeepSNR0,
+ SimulatedHealthySubject01Theta,
+ SimulatedHealthySubject24Theta,
+ SimulatedHealthySubject55Delta,
+ SimulatedHealthySubject53Delta,
+ SimulatedHealthySubject37Theta,
+ SimulatedHealthySubject38Theta]
+
+
+Fold 9:
+  Train Set:
+[SimulatedTemplateP311Ver1LocFL6SuperficialSNR0,
+ SimulatedTemplateP311Ver2LocFL7SuperficialSNR0,
+ SimulatedTemplateP311Ver3LocPL3SuperficialSNR0,
+ SimulatedTemplateP311Ver4LocOL9DeepSNR0,
+ SimulatedTemplateP311Ver5LocTL4SuperficialSNR0,
+ SimulatedTemplateP311Ver6LocIn3DeepSNR0,
+ SimulatedHealthySubject27Theta,
+ SimulatedHealthySubject35Theta,
+ SimulatedHealthySubject28Theta,
+ SimulatedHealthySubject12Theta,
+ SimulatedHealthySubject02Theta,
+ SimulatedHealthySubject49Delta,
+ SimulatedTemplateP310Ver1LocFL4SuperficialSNR0,
+ SimulatedTemplateP310Ver2LocFL5SuperficialSNR0,
+ SimulatedTemplateP310Ver3LocPL9DeepSNR0,
+ SimulatedTemplateP310Ver4LocOL2SuperficialSNR0,
+ SimulatedTemplateP310Ver5LocTL3SuperficialSNR0,
+ SimulatedTemplateP310Ver6LocIn2DeepSNR0,
+ SimulatedHealthySubject43Delta,
+ SimulatedHealthySubject31Theta,
+ SimulatedHealthySubject48Delta,
+ SimulatedHealthySubject60Delta,
+ SimulatedHealthySubject46Delta,
+ SimulatedHealthySubject22Theta,
+ SimulatedTemplateP317Ver1LocFL11SuperficialSNR0,
+ SimulatedTemplateP317Ver2LocFL12SuperficialSNR0,
+ SimulatedTemplateP317Ver3LocPL6SuperficialSNR0,
+ SimulatedTemplateP317Ver4LocOL6SuperficialSNR0,
+ SimulatedTemplateP317Ver5LocTL9DeepSNR0,
+ SimulatedTemplateP317Ver6LocIn7DeepSNR0,
+ SimulatedHealthySubject14Theta,
+ SimulatedHealthySubject45Delta,
+ SimulatedHealthySubject33Theta,
+ SimulatedHealthySubject06Theta,
+ SimulatedHealthySubject29Theta,
+ SimulatedHealthySubject19Theta,
+ SimulatedTemplateP249Ver1LocFL3SuperficialSNR0,
+ SimulatedTemplateP249Ver2LocFL15DeepSNR0,
+ SimulatedTemplateP249Ver3LocPL2SuperficialSNR0,
+ SimulatedTemplateP249Ver4LocOL1SuperficialSNR0,
+ SimulatedTemplateP249Ver5LocTL2SuperficialSNR0,
+ SimulatedTemplateP249Ver6LocIn1DeepSNR0,
+ SimulatedHealthySubject54Delta,
+ SimulatedHealthySubject03Theta,
+ SimulatedHealthySubject40Theta,
+ SimulatedHealthySubject04Theta,
+ SimulatedHealthySubject05Theta,
+ SimulatedHealthySubject36Theta,
+ SimulatedTemplateP323Ver1LocFL14SuperficialSNR0,
+ SimulatedTemplateP323Ver2LocFL20DeepSNR0,
+ SimulatedTemplateP323Ver3LocPL10DeepSNR0,
+ SimulatedTemplateP323Ver4LocOL8DeepSNR0,
+ SimulatedTemplateP323Ver5LocTL10DeepSNR0,
+ SimulatedTemplateP323Ver6LocIn9DeepSNR0,
+ SimulatedHealthySubject52Delta,
+ SimulatedHealthySubject18Theta,
+ SimulatedHealthySubject07Theta,
+ SimulatedHealthySubject20Theta,
+ SimulatedHealthySubject25Theta,
+ SimulatedHealthySubject23Theta,
+ SimulatedTemplateP315Ver1LocFL10SuperficialSNR0,
+ SimulatedTemplateP315Ver2LocFL18DeepSNR0,
+ SimulatedTemplateP315Ver3LocPL8DeepSNR0,
+ SimulatedTemplateP315Ver4LocOL5SuperficialSNR0,
+ SimulatedTemplateP315Ver5LocTL6SuperficialSNR0,
+ SimulatedTemplateP315Ver6LocIn6DeepSNR0,
+ SimulatedHealthySubject16Theta,
+ SimulatedHealthySubject47Delta,
+ SimulatedHealthySubject21Theta,
+ SimulatedHealthySubject57Delta,
+ SimulatedHealthySubject11Theta,
+ SimulatedHealthySubject39Theta,
+ SimulatedTemplateP312Ver1LocFL8SuperficialSNR0,
+ SimulatedTemplateP312Ver2LocFL16DeepSNR0,
+ SimulatedTemplateP312Ver3LocPL4SuperficialSNR0,
+ SimulatedTemplateP312Ver4LocOL3SuperficialSNR0,
+ SimulatedTemplateP312Ver5LocTL5SuperficialSNR0,
+ SimulatedTemplateP312Ver6LocIn4DeepSNR0,
+ SimulatedHealthySubject58Delta,
+ SimulatedHealthySubject10Theta,
+ SimulatedHealthySubject08Theta,
+ SimulatedHealthySubject42Delta,
+ SimulatedHealthySubject32Theta,
+ SimulatedHealthySubject59Delta,
+ SimulatedTemplateP322Ver1LocFL13SuperficialSNR0,
+ SimulatedTemplateP322Ver2LocFL19DeepSNR0,
+ SimulatedTemplateP322Ver3LocPL7SuperficialSNR0,
+ SimulatedTemplateP322Ver4LocOL7SuperficialSNR0,
+ SimulatedTemplateP322Ver5LocTL7SuperficialSNR0,
+ SimulatedTemplateP322Ver6LocInDeepSNR0,
+ SimulatedHealthySubject01Theta,
+ SimulatedHealthySubject24Theta,
+ SimulatedHealthySubject55Delta,
+ SimulatedHealthySubject53Delta,
+ SimulatedHealthySubject37Theta,
+ SimulatedHealthySubject38Theta,
+ SimulatedTemplateP143Ver1LocFL1SuperficialSNR0,
+ SimulatedTemplateP143Ver2LocFL2SuperficialSNR0,
+ SimulatedTemplateP143Ver3LocPL1SuperficialSNR0,
+ SimulatedTemplateP143Ver4LocOL10DeepSNR0,
+ SimulatedTemplateP143Ver5LocTL1SuperificialSNR0,
+ SimulatedTemplateP143Ver6LocIn10DeepSNR0,
+ SimulatedHealthySubject13Theta,
+ SimulatedHealthySubject44Delta,
+ SimulatedHealthySubject17Theta,
+ SimulatedHealthySubject09Theta,
+ SimulatedHealthySubject50Delta,
+ SimulatedHealthySubject51Delta]
+  Test Set:
+[SimulatedTemplateP314Ver1LocFL9SuperficialSNR0,
+ SimulatedTemplateP314Ver2LocFL17DeepSNR0,
+ SimulatedTemplateP314Ver3LocPL5SuperficialSNR0,
+ SimulatedTemplateP314Ver4LocOL4SuperficialSNR0,
+ SimulatedTemplateP314Ver5LocTL8DeepSNR0,
+ SimulatedTemplateP314Ver6LocIn5DeepSNR0,
+ SimulatedHealthySubject56Delta,
+ SimulatedHealthySubject34Theta,
+ SimulatedHealthySubject15Theta,
+ SimulatedHealthySubject41Delta,
+ SimulatedHealthySubject26Theta,
+ SimulatedHealthySubject30Theta]
+
+
+Fold 10:
+  Train Set:
+[SimulatedTemplateP311Ver1LocFL6SuperficialSNR0,
+ SimulatedTemplateP311Ver2LocFL7SuperficialSNR0,
+ SimulatedTemplateP311Ver3LocPL3SuperficialSNR0,
+ SimulatedTemplateP311Ver4LocOL9DeepSNR0,
+ SimulatedTemplateP311Ver5LocTL4SuperficialSNR0,
+ SimulatedTemplateP311Ver6LocIn3DeepSNR0,
+ SimulatedHealthySubject27Theta,
+ SimulatedHealthySubject35Theta,
+ SimulatedHealthySubject28Theta,
+ SimulatedHealthySubject12Theta,
+ SimulatedHealthySubject02Theta,
+ SimulatedHealthySubject49Delta,
+ SimulatedTemplateP310Ver1LocFL4SuperficialSNR0,
+ SimulatedTemplateP310Ver2LocFL5SuperficialSNR0,
+ SimulatedTemplateP310Ver3LocPL9DeepSNR0,
+ SimulatedTemplateP310Ver4LocOL2SuperficialSNR0,
+ SimulatedTemplateP310Ver5LocTL3SuperficialSNR0,
+ SimulatedTemplateP310Ver6LocIn2DeepSNR0,
+ SimulatedHealthySubject43Delta,
+ SimulatedHealthySubject31Theta,
+ SimulatedHealthySubject48Delta,
+ SimulatedHealthySubject60Delta,
+ SimulatedHealthySubject46Delta,
+ SimulatedHealthySubject22Theta,
+ SimulatedTemplateP317Ver1LocFL11SuperficialSNR0,
+ SimulatedTemplateP317Ver2LocFL12SuperficialSNR0,
+ SimulatedTemplateP317Ver3LocPL6SuperficialSNR0,
+ SimulatedTemplateP317Ver4LocOL6SuperficialSNR0,
+ SimulatedTemplateP317Ver5LocTL9DeepSNR0,
+ SimulatedTemplateP317Ver6LocIn7DeepSNR0,
+ SimulatedHealthySubject14Theta,
+ SimulatedHealthySubject45Delta,
+ SimulatedHealthySubject33Theta,
+ SimulatedHealthySubject06Theta,
+ SimulatedHealthySubject29Theta,
+ SimulatedHealthySubject19Theta,
+ SimulatedTemplateP249Ver1LocFL3SuperficialSNR0,
+ SimulatedTemplateP249Ver2LocFL15DeepSNR0,
+ SimulatedTemplateP249Ver3LocPL2SuperficialSNR0,
+ SimulatedTemplateP249Ver4LocOL1SuperficialSNR0,
+ SimulatedTemplateP249Ver5LocTL2SuperficialSNR0,
+ SimulatedTemplateP249Ver6LocIn1DeepSNR0,
+ SimulatedHealthySubject54Delta,
+ SimulatedHealthySubject03Theta,
+ SimulatedHealthySubject40Theta,
+ SimulatedHealthySubject04Theta,
+ SimulatedHealthySubject05Theta,
+ SimulatedHealthySubject36Theta,
+ SimulatedTemplateP323Ver1LocFL14SuperficialSNR0,
+ SimulatedTemplateP323Ver2LocFL20DeepSNR0,
+ SimulatedTemplateP323Ver3LocPL10DeepSNR0,
+ SimulatedTemplateP323Ver4LocOL8DeepSNR0,
+ SimulatedTemplateP323Ver5LocTL10DeepSNR0,
+ SimulatedTemplateP323Ver6LocIn9DeepSNR0,
+ SimulatedHealthySubject52Delta,
+ SimulatedHealthySubject18Theta,
+ SimulatedHealthySubject07Theta,
+ SimulatedHealthySubject20Theta,
+ SimulatedHealthySubject25Theta,
+ SimulatedHealthySubject23Theta,
+ SimulatedTemplateP315Ver1LocFL10SuperficialSNR0,
+ SimulatedTemplateP315Ver2LocFL18DeepSNR0,
+ SimulatedTemplateP315Ver3LocPL8DeepSNR0,
+ SimulatedTemplateP315Ver4LocOL5SuperficialSNR0,
+ SimulatedTemplateP315Ver5LocTL6SuperficialSNR0,
+ SimulatedTemplateP315Ver6LocIn6DeepSNR0,
+ SimulatedHealthySubject16Theta,
+ SimulatedHealthySubject47Delta,
+ SimulatedHealthySubject21Theta,
+ SimulatedHealthySubject57Delta,
+ SimulatedHealthySubject11Theta,
+ SimulatedHealthySubject39Theta,
+ SimulatedTemplateP312Ver1LocFL8SuperficialSNR0,
+ SimulatedTemplateP312Ver2LocFL16DeepSNR0,
+ SimulatedTemplateP312Ver3LocPL4SuperficialSNR0,
+ SimulatedTemplateP312Ver4LocOL3SuperficialSNR0,
+ SimulatedTemplateP312Ver5LocTL5SuperficialSNR0,
+ SimulatedTemplateP312Ver6LocIn4DeepSNR0,
+ SimulatedHealthySubject58Delta,
+ SimulatedHealthySubject10Theta,
+ SimulatedHealthySubject08Theta,
+ SimulatedHealthySubject42Delta,
+ SimulatedHealthySubject32Theta,
+ SimulatedHealthySubject59Delta,
+ SimulatedTemplateP322Ver1LocFL13SuperficialSNR0,
+ SimulatedTemplateP322Ver2LocFL19DeepSNR0,
+ SimulatedTemplateP322Ver3LocPL7SuperficialSNR0,
+ SimulatedTemplateP322Ver4LocOL7SuperficialSNR0,
+ SimulatedTemplateP322Ver5LocTL7SuperficialSNR0,
+ SimulatedTemplateP322Ver6LocInDeepSNR0,
+ SimulatedHealthySubject01Theta,
+ SimulatedHealthySubject24Theta,
+ SimulatedHealthySubject55Delta,
+ SimulatedHealthySubject53Delta,
+ SimulatedHealthySubject37Theta,
+ SimulatedHealthySubject38Theta,
+ SimulatedTemplateP314Ver1LocFL9SuperficialSNR0,
+ SimulatedTemplateP314Ver2LocFL17DeepSNR0,
+ SimulatedTemplateP314Ver3LocPL5SuperficialSNR0,
+ SimulatedTemplateP314Ver4LocOL4SuperficialSNR0,
+ SimulatedTemplateP314Ver5LocTL8DeepSNR0,
+ SimulatedTemplateP314Ver6LocIn5DeepSNR0,
+ SimulatedHealthySubject56Delta,
+ SimulatedHealthySubject34Theta,
+ SimulatedHealthySubject15Theta,
+ SimulatedHealthySubject41Delta,
+ SimulatedHealthySubject26Theta,
+ SimulatedHealthySubject30Theta]
+  Test Set:
+[SimulatedTemplateP143Ver1LocFL1SuperficialSNR0,
+ SimulatedTemplateP143Ver2LocFL2SuperficialSNR0,
+ SimulatedTemplateP143Ver3LocPL1SuperficialSNR0,
+ SimulatedTemplateP143Ver4LocOL10DeepSNR0,
+ SimulatedTemplateP143Ver5LocTL1SuperificialSNR0,
+ SimulatedTemplateP143Ver6LocIn10DeepSNR0,
+ SimulatedHealthySubject13Theta,
+ SimulatedHealthySubject44Delta,
+ SimulatedHealthySubject17Theta,
+ SimulatedHealthySubject09Theta,
+ SimulatedHealthySubject50Delta,
+ SimulatedHealthySubject51Delta]
+
+
+2024-12-18 15:37:57,056 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Processing fold 1/10
+2024-12-18 15:37:57,056 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-18 15:37:58,263 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-18 15:37:59,219 - INFO - nn_control - Starting training process with early stopping.
+2024-12-18 15:37:59,219 - INFO - nn_control - Epoch 1/15
+2024-12-18 15:46:26,804 - INFO - nn_control - Epoch 1/15 - Train Loss: 0.6383, Train Acc: 0.5826 | Test Loss: 0.3559, Test Acc: 0.8369
+2024-12-18 15:46:27,003 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_1_best_model.pth
+2024-12-18 15:46:27,003 - INFO - nn_control - Epoch 2/15
+2024-12-18 15:47:30,422 - INFO - nn_control - Epoch 2/15 - Train Loss: 0.2778, Train Acc: 0.8864 | Test Loss: 0.2020, Test Acc: 0.9206
+2024-12-18 15:47:30,641 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_1_best_model.pth
+2024-12-18 15:47:30,641 - INFO - nn_control - Epoch 3/15
+2024-12-18 15:48:34,295 - INFO - nn_control - Epoch 3/15 - Train Loss: 0.1865, Train Acc: 0.9264 | Test Loss: 0.1241, Test Acc: 0.9518
+2024-12-18 15:48:34,511 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_1_best_model.pth
+2024-12-18 15:48:34,511 - INFO - nn_control - Epoch 4/15
+2024-12-18 15:49:37,128 - INFO - nn_control - Epoch 4/15 - Train Loss: 0.1328, Train Acc: 0.9497 | Test Loss: 0.0921, Test Acc: 0.9680
+2024-12-18 15:49:37,347 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_1_best_model.pth
+2024-12-18 15:49:37,347 - INFO - nn_control - Epoch 5/15
+2024-12-18 15:50:41,702 - INFO - nn_control - Epoch 5/15 - Train Loss: 0.1024, Train Acc: 0.9626 | Test Loss: 0.2271, Test Acc: 0.9222
+2024-12-18 15:50:41,702 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0921
+2024-12-18 15:50:41,702 - INFO - nn_control - Epoch 6/15
+2024-12-18 15:51:44,714 - INFO - nn_control - Epoch 6/15 - Train Loss: 0.0873, Train Acc: 0.9680 | Test Loss: 0.0846, Test Acc: 0.9707
+2024-12-18 15:51:44,945 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_1_best_model.pth
+2024-12-18 15:51:44,945 - INFO - nn_control - Epoch 7/15
+2024-12-18 15:52:47,986 - INFO - nn_control - Epoch 7/15 - Train Loss: 0.0758, Train Acc: 0.9715 | Test Loss: 0.0947, Test Acc: 0.9658
+2024-12-18 15:52:47,986 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0846
+2024-12-18 15:52:47,986 - INFO - nn_control - Epoch 8/15
+2024-12-18 15:53:51,239 - INFO - nn_control - Epoch 8/15 - Train Loss: 0.0716, Train Acc: 0.9738 | Test Loss: 0.1298, Test Acc: 0.9522
+2024-12-18 15:53:51,239 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.0846
+2024-12-18 15:53:51,240 - INFO - nn_control - Epoch 9/15
+2024-12-18 16:01:25,856 - INFO - nn_control - Epoch 9/15 - Train Loss: 0.0619, Train Acc: 0.9773 | Test Loss: 0.0509, Test Acc: 0.9813
+2024-12-18 16:01:26,098 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_1_best_model.pth
+2024-12-18 16:01:26,099 - INFO - nn_control - Epoch 10/15
+2024-12-18 16:02:31,214 - INFO - nn_control - Epoch 10/15 - Train Loss: 0.0555, Train Acc: 0.9804 | Test Loss: 0.0664, Test Acc: 0.9754
+2024-12-18 16:02:31,215 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0509
+2024-12-18 16:02:31,215 - INFO - nn_control - Epoch 11/15
+2024-12-18 16:03:34,511 - INFO - nn_control - Epoch 11/15 - Train Loss: 0.0515, Train Acc: 0.9815 | Test Loss: 0.0909, Test Acc: 0.9691
+2024-12-18 16:03:34,511 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.0509
+2024-12-18 16:03:34,511 - INFO - nn_control - Epoch 12/15
+2024-12-18 16:04:37,793 - INFO - nn_control - Epoch 12/15 - Train Loss: 0.0493, Train Acc: 0.9821 | Test Loss: 0.0505, Test Acc: 0.9815
+2024-12-18 16:04:38,029 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_1_best_model.pth
+2024-12-18 16:04:38,029 - INFO - nn_control - Epoch 13/15
+2024-12-18 16:05:41,294 - INFO - nn_control - Epoch 13/15 - Train Loss: 0.0461, Train Acc: 0.9836 | Test Loss: 0.0561, Test Acc: 0.9775
+2024-12-18 16:05:41,294 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0505
+2024-12-18 16:05:41,294 - INFO - nn_control - Epoch 14/15
+2024-12-18 16:06:44,559 - INFO - nn_control - Epoch 14/15 - Train Loss: 0.0417, Train Acc: 0.9848 | Test Loss: 0.0664, Test Acc: 0.9734
+2024-12-18 16:06:44,559 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.0505
+2024-12-18 16:06:44,559 - INFO - nn_control - Epoch 15/15
+2024-12-18 16:07:47,784 - INFO - nn_control - Epoch 15/15 - Train Loss: 0.0377, Train Acc: 0.9866 | Test Loss: 0.0543, Test Acc: 0.9810
+2024-12-18 16:07:47,784 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.0505
+2024-12-18 16:07:47,784 - INFO - nn_control - Early stopping triggered.
+2024-12-18 16:07:47,785 - INFO - nn_control - Restored the best model state.
+2024-12-18 16:07:47,785 - INFO - nn_control - Training process completed.
+Fold 1 AUC: 0.9990
+2024-12-18 16:07:51,188 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 1 Sensitivity: 0.9630 ± 0.0205
+2024-12-18 16:07:51,188 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 1 False Negative Rate: 0.0370 ± 0.0205
+2024-12-18 16:07:51,189 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 1 Specificity: 0.9979 ± 0.0026
+2024-12-18 16:07:51,189 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 1 False Positive Rate: 0.0021 ± 0.0026
+2024-12-18 16:07:51,189 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Processing fold 2/10
+2024-12-18 16:07:51,189 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-18 16:07:51,672 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-18 16:07:51,861 - INFO - nn_control - Starting training process with early stopping.
+2024-12-18 16:07:51,862 - INFO - nn_control - Epoch 1/15
+2024-12-18 16:08:55,346 - INFO - nn_control - Epoch 1/15 - Train Loss: 0.6199, Train Acc: 0.5982 | Test Loss: 0.5034, Test Acc: 0.7788
+2024-12-18 16:08:55,572 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_2_best_model.pth
+2024-12-18 16:08:55,572 - INFO - nn_control - Epoch 2/15
+2024-12-18 16:09:58,847 - INFO - nn_control - Epoch 2/15 - Train Loss: 0.2544, Train Acc: 0.8961 | Test Loss: 0.5316, Test Acc: 0.8011
+2024-12-18 16:09:58,848 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.5034
+2024-12-18 16:09:58,848 - INFO - nn_control - Epoch 3/15
+2024-12-18 16:11:02,059 - INFO - nn_control - Epoch 3/15 - Train Loss: 0.1692, Train Acc: 0.9351 | Test Loss: 0.3348, Test Acc: 0.8756
+2024-12-18 16:11:02,295 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_2_best_model.pth
+2024-12-18 16:11:02,295 - INFO - nn_control - Epoch 4/15
+2024-12-18 16:12:05,617 - INFO - nn_control - Epoch 4/15 - Train Loss: 0.1182, Train Acc: 0.9554 | Test Loss: 0.3373, Test Acc: 0.8722
+2024-12-18 16:12:05,617 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.3348
+2024-12-18 16:12:05,618 - INFO - nn_control - Epoch 5/15
+2024-12-18 16:13:08,865 - INFO - nn_control - Epoch 5/15 - Train Loss: 0.0893, Train Acc: 0.9669 | Test Loss: 0.3312, Test Acc: 0.8804
+2024-12-18 16:13:09,145 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_2_best_model.pth
+2024-12-18 16:13:09,145 - INFO - nn_control - Epoch 6/15
+2024-12-18 16:14:12,395 - INFO - nn_control - Epoch 6/15 - Train Loss: 0.0738, Train Acc: 0.9735 | Test Loss: 0.5780, Test Acc: 0.8173
+2024-12-18 16:14:12,396 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.3312
+2024-12-18 16:14:12,396 - INFO - nn_control - Epoch 7/15
+2024-12-18 16:15:15,722 - INFO - nn_control - Epoch 7/15 - Train Loss: 0.0650, Train Acc: 0.9767 | Test Loss: 0.3112, Test Acc: 0.8938
+2024-12-18 16:15:15,948 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_2_best_model.pth
+2024-12-18 16:15:15,949 - INFO - nn_control - Epoch 8/15
+2024-12-18 16:16:19,235 - INFO - nn_control - Epoch 8/15 - Train Loss: 0.0543, Train Acc: 0.9803 | Test Loss: 0.3503, Test Acc: 0.8872
+2024-12-18 16:16:19,235 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.3112
+2024-12-18 16:16:19,235 - INFO - nn_control - Epoch 9/15
+2024-12-18 16:17:22,593 - INFO - nn_control - Epoch 9/15 - Train Loss: 0.0487, Train Acc: 0.9821 | Test Loss: 0.2548, Test Acc: 0.9174
+2024-12-18 16:17:22,822 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_2_best_model.pth
+2024-12-18 16:17:22,822 - INFO - nn_control - Epoch 10/15
+2024-12-18 16:18:26,128 - INFO - nn_control - Epoch 10/15 - Train Loss: 0.0404, Train Acc: 0.9857 | Test Loss: 0.4197, Test Acc: 0.8756
+2024-12-18 16:18:26,128 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.2548
+2024-12-18 16:18:26,128 - INFO - nn_control - Epoch 11/15
+2024-12-18 16:19:29,366 - INFO - nn_control - Epoch 11/15 - Train Loss: 0.0378, Train Acc: 0.9867 | Test Loss: 0.3681, Test Acc: 0.8910
+2024-12-18 16:19:29,366 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.2548
+2024-12-18 16:19:29,366 - INFO - nn_control - Epoch 12/15
+2024-12-18 16:20:32,648 - INFO - nn_control - Epoch 12/15 - Train Loss: 0.0366, Train Acc: 0.9870 | Test Loss: 0.2683, Test Acc: 0.9173
+2024-12-18 16:20:32,648 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.2548
+2024-12-18 16:20:32,648 - INFO - nn_control - Early stopping triggered.
+2024-12-18 16:20:32,649 - INFO - nn_control - Restored the best model state.
+2024-12-18 16:20:32,649 - INFO - nn_control - Training process completed.
+Fold 2 AUC: 0.9803
+2024-12-18 16:20:36,023 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 2 Sensitivity: 0.9669 ± 0.0285
+2024-12-18 16:20:36,023 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 2 False Negative Rate: 0.0331 ± 0.0285
+2024-12-18 16:20:36,023 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 2 Specificity: 0.8708 ± 0.1424
+2024-12-18 16:20:36,024 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 2 False Positive Rate: 0.1292 ± 0.1424
+2024-12-18 16:20:36,024 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Processing fold 3/10
+2024-12-18 16:20:36,024 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-18 16:20:36,508 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-18 16:20:36,698 - INFO - nn_control - Starting training process with early stopping.
+2024-12-18 16:20:36,698 - INFO - nn_control - Epoch 1/15
+2024-12-18 16:21:40,313 - INFO - nn_control - Epoch 1/15 - Train Loss: 0.6445, Train Acc: 0.5761 | Test Loss: 0.2521, Test Acc: 0.9022
+2024-12-18 16:21:40,547 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_3_best_model.pth
+2024-12-18 16:21:40,547 - INFO - nn_control - Epoch 2/15
+2024-12-18 16:22:43,782 - INFO - nn_control - Epoch 2/15 - Train Loss: 0.2831, Train Acc: 0.8839 | Test Loss: 0.1381, Test Acc: 0.9458
+2024-12-18 16:22:44,026 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_3_best_model.pth
+2024-12-18 16:22:44,026 - INFO - nn_control - Epoch 3/15
+2024-12-18 16:23:47,310 - INFO - nn_control - Epoch 3/15 - Train Loss: 0.1813, Train Acc: 0.9301 | Test Loss: 0.0918, Test Acc: 0.9636
+2024-12-18 16:23:47,546 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_3_best_model.pth
+2024-12-18 16:23:47,546 - INFO - nn_control - Epoch 4/15
+2024-12-18 16:24:50,911 - INFO - nn_control - Epoch 4/15 - Train Loss: 0.1340, Train Acc: 0.9496 | Test Loss: 0.1186, Test Acc: 0.9546
+2024-12-18 16:24:50,911 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0918
+2024-12-18 16:24:50,911 - INFO - nn_control - Epoch 5/15
+2024-12-18 16:25:54,213 - INFO - nn_control - Epoch 5/15 - Train Loss: 0.1043, Train Acc: 0.9610 | Test Loss: 0.0654, Test Acc: 0.9779
+2024-12-18 16:25:54,440 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_3_best_model.pth
+2024-12-18 16:25:54,441 - INFO - nn_control - Epoch 6/15
+2024-12-18 16:26:57,714 - INFO - nn_control - Epoch 6/15 - Train Loss: 0.0971, Train Acc: 0.9634 | Test Loss: 0.0909, Test Acc: 0.9656
+2024-12-18 16:26:57,714 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0654
+2024-12-18 16:26:57,714 - INFO - nn_control - Epoch 7/15
+2024-12-18 16:28:01,034 - INFO - nn_control - Epoch 7/15 - Train Loss: 0.0790, Train Acc: 0.9706 | Test Loss: 0.0605, Test Acc: 0.9810
+2024-12-18 16:28:01,303 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_3_best_model.pth
+2024-12-18 16:28:01,304 - INFO - nn_control - Epoch 8/15
+2024-12-18 16:29:04,564 - INFO - nn_control - Epoch 8/15 - Train Loss: 0.0752, Train Acc: 0.9727 | Test Loss: 0.1544, Test Acc: 0.9461
+2024-12-18 16:29:04,564 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0605
+2024-12-18 16:29:04,565 - INFO - nn_control - Epoch 9/15
+2024-12-18 16:30:07,887 - INFO - nn_control - Epoch 9/15 - Train Loss: 0.0648, Train Acc: 0.9766 | Test Loss: 0.0694, Test Acc: 0.9765
+2024-12-18 16:30:07,887 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.0605
+2024-12-18 16:30:07,888 - INFO - nn_control - Epoch 10/15
+2024-12-18 16:31:11,189 - INFO - nn_control - Epoch 10/15 - Train Loss: 0.0621, Train Acc: 0.9775 | Test Loss: 0.1026, Test Acc: 0.9609
+2024-12-18 16:31:11,189 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.0605
+2024-12-18 16:31:11,189 - INFO - nn_control - Early stopping triggered.
+2024-12-18 16:31:11,190 - INFO - nn_control - Restored the best model state.
+2024-12-18 16:31:11,190 - INFO - nn_control - Training process completed.
+Fold 3 AUC: 0.9973
+2024-12-18 16:31:14,565 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 3 Sensitivity: 0.9926 ± 0.0119
+2024-12-18 16:31:14,566 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 3 False Negative Rate: 0.0074 ± 0.0119
+2024-12-18 16:31:14,566 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 3 Specificity: 0.9298 ± 0.0649
+2024-12-18 16:31:14,566 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 3 False Positive Rate: 0.0702 ± 0.0649
+2024-12-18 16:31:14,566 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Processing fold 4/10
+2024-12-18 16:31:14,566 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-18 16:31:15,054 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-18 16:31:15,244 - INFO - nn_control - Starting training process with early stopping.
+2024-12-18 16:31:15,244 - INFO - nn_control - Epoch 1/15
+2024-12-18 16:32:19,080 - INFO - nn_control - Epoch 1/15 - Train Loss: 0.6155, Train Acc: 0.6108 | Test Loss: 0.2733, Test Acc: 0.8819
+2024-12-18 16:32:19,311 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_4_best_model.pth
+2024-12-18 16:32:19,311 - INFO - nn_control - Epoch 2/15
+2024-12-18 16:33:22,956 - INFO - nn_control - Epoch 2/15 - Train Loss: 0.2726, Train Acc: 0.8897 | Test Loss: 0.2212, Test Acc: 0.9020
+2024-12-18 16:33:23,221 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_4_best_model.pth
+2024-12-18 16:33:23,222 - INFO - nn_control - Epoch 3/15
+2024-12-18 16:34:26,936 - INFO - nn_control - Epoch 3/15 - Train Loss: 0.1805, Train Acc: 0.9306 | Test Loss: 0.1990, Test Acc: 0.9307
+2024-12-18 16:34:27,166 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_4_best_model.pth
+2024-12-18 16:34:27,166 - INFO - nn_control - Epoch 4/15
+2024-12-18 16:35:30,874 - INFO - nn_control - Epoch 4/15 - Train Loss: 0.1282, Train Acc: 0.9513 | Test Loss: 0.2109, Test Acc: 0.9229
+2024-12-18 16:35:30,874 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1990
+2024-12-18 16:35:30,874 - INFO - nn_control - Epoch 5/15
+2024-12-18 16:36:34,569 - INFO - nn_control - Epoch 5/15 - Train Loss: 0.1057, Train Acc: 0.9605 | Test Loss: 0.1890, Test Acc: 0.9330
+2024-12-18 16:36:34,805 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_4_best_model.pth
+2024-12-18 16:36:34,805 - INFO - nn_control - Epoch 6/15
+2024-12-18 16:37:38,587 - INFO - nn_control - Epoch 6/15 - Train Loss: 0.0894, Train Acc: 0.9667 | Test Loss: 0.1829, Test Acc: 0.9387
+2024-12-18 16:37:38,835 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_4_best_model.pth
+2024-12-18 16:37:38,835 - INFO - nn_control - Epoch 7/15
+2024-12-18 16:38:42,667 - INFO - nn_control - Epoch 7/15 - Train Loss: 0.0772, Train Acc: 0.9719 | Test Loss: 0.2031, Test Acc: 0.9345
+2024-12-18 16:38:42,667 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1829
+2024-12-18 16:38:42,667 - INFO - nn_control - Epoch 8/15
+2024-12-18 16:39:46,499 - INFO - nn_control - Epoch 8/15 - Train Loss: 0.0694, Train Acc: 0.9751 | Test Loss: 0.2005, Test Acc: 0.9378
+2024-12-18 16:39:46,499 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.1829
+2024-12-18 16:39:46,500 - INFO - nn_control - Epoch 9/15
+2024-12-18 16:40:50,342 - INFO - nn_control - Epoch 9/15 - Train Loss: 0.0629, Train Acc: 0.9774 | Test Loss: 0.1990, Test Acc: 0.9358
+2024-12-18 16:40:50,342 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.1829
+2024-12-18 16:40:50,343 - INFO - nn_control - Early stopping triggered.
+2024-12-18 16:40:50,343 - INFO - nn_control - Restored the best model state.
+2024-12-18 16:40:50,343 - INFO - nn_control - Training process completed.
+Fold 4 AUC: 0.9855
+2024-12-18 16:40:53,382 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 4 Sensitivity: 0.9252 ± 0.0944
+2024-12-18 16:40:53,382 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 4 False Negative Rate: 0.0748 ± 0.0944
+2024-12-18 16:40:53,382 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 4 Specificity: 0.9499 ± 0.0944
+2024-12-18 16:40:53,382 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 4 False Positive Rate: 0.0501 ± 0.0944
+2024-12-18 16:40:53,382 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Processing fold 5/10
+2024-12-18 16:40:53,382 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-18 16:40:53,886 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-18 16:40:54,075 - INFO - nn_control - Starting training process with early stopping.
+2024-12-18 16:40:54,076 - INFO - nn_control - Epoch 1/15
+2024-12-18 16:41:57,678 - INFO - nn_control - Epoch 1/15 - Train Loss: 0.6024, Train Acc: 0.6204 | Test Loss: 0.3788, Test Acc: 0.8351
+2024-12-18 16:41:57,907 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_5_best_model.pth
+2024-12-18 16:41:57,908 - INFO - nn_control - Epoch 2/15
+2024-12-18 16:43:01,282 - INFO - nn_control - Epoch 2/15 - Train Loss: 0.2524, Train Acc: 0.8977 | Test Loss: 0.2895, Test Acc: 0.8829
+2024-12-18 16:43:01,534 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_5_best_model.pth
+2024-12-18 16:43:01,535 - INFO - nn_control - Epoch 3/15
+2024-12-18 16:44:04,972 - INFO - nn_control - Epoch 3/15 - Train Loss: 0.1656, Train Acc: 0.9358 | Test Loss: 0.2284, Test Acc: 0.9076
+2024-12-18 16:44:05,211 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_5_best_model.pth
+2024-12-18 16:44:05,212 - INFO - nn_control - Epoch 4/15
+2024-12-18 16:45:08,712 - INFO - nn_control - Epoch 4/15 - Train Loss: 0.1195, Train Acc: 0.9549 | Test Loss: 0.2388, Test Acc: 0.9104
+2024-12-18 16:45:08,712 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.2284
+2024-12-18 16:45:08,712 - INFO - nn_control - Epoch 5/15
+2024-12-18 16:46:12,172 - INFO - nn_control - Epoch 5/15 - Train Loss: 0.0921, Train Acc: 0.9660 | Test Loss: 0.2174, Test Acc: 0.9213
+2024-12-18 16:46:12,409 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_5_best_model.pth
+2024-12-18 16:46:12,409 - INFO - nn_control - Epoch 6/15
+2024-12-18 16:47:15,514 - INFO - nn_control - Epoch 6/15 - Train Loss: 0.0797, Train Acc: 0.9710 | Test Loss: 0.1815, Test Acc: 0.9338
+2024-12-18 16:47:15,755 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_5_best_model.pth
+2024-12-18 16:47:15,756 - INFO - nn_control - Epoch 7/15
+2024-12-18 16:48:20,267 - INFO - nn_control - Epoch 7/15 - Train Loss: 0.0652, Train Acc: 0.9762 | Test Loss: 0.2381, Test Acc: 0.9179
+2024-12-18 16:48:20,267 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1815
+2024-12-18 16:48:20,268 - INFO - nn_control - Epoch 8/15
+2024-12-18 16:49:23,425 - INFO - nn_control - Epoch 8/15 - Train Loss: 0.0583, Train Acc: 0.9786 | Test Loss: 0.1725, Test Acc: 0.9416
+2024-12-18 16:49:23,665 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_5_best_model.pth
+2024-12-18 16:49:23,665 - INFO - nn_control - Epoch 9/15
+2024-12-18 16:50:27,020 - INFO - nn_control - Epoch 9/15 - Train Loss: 0.0510, Train Acc: 0.9816 | Test Loss: 0.2046, Test Acc: 0.9342
+2024-12-18 16:50:27,020 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1725
+2024-12-18 16:50:27,020 - INFO - nn_control - Epoch 10/15
+2024-12-18 16:51:30,299 - INFO - nn_control - Epoch 10/15 - Train Loss: 0.0506, Train Acc: 0.9822 | Test Loss: 0.2039, Test Acc: 0.9339
+2024-12-18 16:51:30,299 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.1725
+2024-12-18 16:51:30,300 - INFO - nn_control - Epoch 11/15
+2024-12-18 16:52:33,825 - INFO - nn_control - Epoch 11/15 - Train Loss: 0.0437, Train Acc: 0.9845 | Test Loss: 0.1820, Test Acc: 0.9377
+2024-12-18 16:52:33,826 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.1725
+2024-12-18 16:52:33,826 - INFO - nn_control - Early stopping triggered.
+2024-12-18 16:52:33,826 - INFO - nn_control - Restored the best model state.
+2024-12-18 16:52:33,826 - INFO - nn_control - Training process completed.
+Fold 5 AUC: 0.9874
+2024-12-18 16:52:37,254 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 5 Sensitivity: 0.9138 ± 0.1028
+2024-12-18 16:52:37,254 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 5 False Negative Rate: 0.0862 ± 0.1028
+2024-12-18 16:52:37,254 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 5 Specificity: 0.9604 ± 0.0557
+2024-12-18 16:52:37,254 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 5 False Positive Rate: 0.0396 ± 0.0557
+2024-12-18 16:52:37,254 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Processing fold 6/10
+2024-12-18 16:52:37,254 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-18 16:52:37,740 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-18 16:52:37,925 - INFO - nn_control - Starting training process with early stopping.
+2024-12-18 16:52:37,925 - INFO - nn_control - Epoch 1/15
+2024-12-18 16:53:42,237 - INFO - nn_control - Epoch 1/15 - Train Loss: 0.6372, Train Acc: 0.5834 | Test Loss: 0.4508, Test Acc: 0.7834
+2024-12-18 16:53:42,466 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_6_best_model.pth
+2024-12-18 16:53:42,467 - INFO - nn_control - Epoch 2/15
+2024-12-18 16:54:45,750 - INFO - nn_control - Epoch 2/15 - Train Loss: 0.2739, Train Acc: 0.8891 | Test Loss: 0.3030, Test Acc: 0.8731
+2024-12-18 16:54:45,983 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_6_best_model.pth
+2024-12-18 16:54:45,983 - INFO - nn_control - Epoch 3/15
+2024-12-18 16:55:49,472 - INFO - nn_control - Epoch 3/15 - Train Loss: 0.1955, Train Acc: 0.9220 | Test Loss: 0.2486, Test Acc: 0.8986
+2024-12-18 16:55:49,702 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_6_best_model.pth
+2024-12-18 16:55:49,702 - INFO - nn_control - Epoch 4/15
+2024-12-18 16:56:53,322 - INFO - nn_control - Epoch 4/15 - Train Loss: 0.1384, Train Acc: 0.9465 | Test Loss: 0.2009, Test Acc: 0.9234
+2024-12-18 16:56:53,557 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_6_best_model.pth
+2024-12-18 16:56:53,557 - INFO - nn_control - Epoch 5/15
+2024-12-18 16:57:56,995 - INFO - nn_control - Epoch 5/15 - Train Loss: 0.1047, Train Acc: 0.9605 | Test Loss: 0.3132, Test Acc: 0.8898
+2024-12-18 16:57:56,995 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.2009
+2024-12-18 16:57:56,995 - INFO - nn_control - Epoch 6/15
+2024-12-18 16:59:00,402 - INFO - nn_control - Epoch 6/15 - Train Loss: 0.0894, Train Acc: 0.9662 | Test Loss: 0.2122, Test Acc: 0.9252
+2024-12-18 16:59:00,402 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.2009
+2024-12-18 16:59:00,402 - INFO - nn_control - Epoch 7/15
+2024-12-18 17:00:03,178 - INFO - nn_control - Epoch 7/15 - Train Loss: 0.0776, Train Acc: 0.9723 | Test Loss: 0.1675, Test Acc: 0.9393
+2024-12-18 17:00:03,406 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_6_best_model.pth
+2024-12-18 17:00:03,406 - INFO - nn_control - Epoch 8/15
+2024-12-18 17:01:05,548 - INFO - nn_control - Epoch 8/15 - Train Loss: 0.0683, Train Acc: 0.9753 | Test Loss: 0.1504, Test Acc: 0.9470
+2024-12-18 17:01:05,778 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_6_best_model.pth
+2024-12-18 17:01:05,778 - INFO - nn_control - Epoch 9/15
+2024-12-18 17:02:08,466 - INFO - nn_control - Epoch 9/15 - Train Loss: 0.0613, Train Acc: 0.9779 | Test Loss: 0.1615, Test Acc: 0.9449
+2024-12-18 17:02:08,467 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1504
+2024-12-18 17:02:08,467 - INFO - nn_control - Epoch 10/15
+2024-12-18 17:03:11,795 - INFO - nn_control - Epoch 10/15 - Train Loss: 0.0530, Train Acc: 0.9807 | Test Loss: 0.1324, Test Acc: 0.9523
+2024-12-18 17:03:12,028 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_6_best_model.pth
+2024-12-18 17:03:12,029 - INFO - nn_control - Epoch 11/15
+2024-12-18 17:04:15,422 - INFO - nn_control - Epoch 11/15 - Train Loss: 0.0499, Train Acc: 0.9825 | Test Loss: 0.3343, Test Acc: 0.8993
+2024-12-18 17:04:15,422 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1324
+2024-12-18 17:04:15,423 - INFO - nn_control - Epoch 12/15
+2024-12-18 17:05:18,940 - INFO - nn_control - Epoch 12/15 - Train Loss: 0.0483, Train Acc: 0.9826 | Test Loss: 0.1399, Test Acc: 0.9492
+2024-12-18 17:05:18,940 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.1324
+2024-12-18 17:05:18,941 - INFO - nn_control - Epoch 13/15
+2024-12-18 17:06:22,626 - INFO - nn_control - Epoch 13/15 - Train Loss: 0.0456, Train Acc: 0.9835 | Test Loss: 0.1565, Test Acc: 0.9498
+2024-12-18 17:06:22,626 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.1324
+2024-12-18 17:06:22,626 - INFO - nn_control - Early stopping triggered.
+2024-12-18 17:06:22,626 - INFO - nn_control - Restored the best model state.
+2024-12-18 17:06:22,627 - INFO - nn_control - Training process completed.
+Fold 6 AUC: 0.9878
+2024-12-18 17:06:26,377 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 6 Sensitivity: 0.9659 ± 0.0177
+2024-12-18 17:06:26,377 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 6 False Negative Rate: 0.0341 ± 0.0177
+2024-12-18 17:06:26,377 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 6 Specificity: 0.9352 ± 0.0887
+2024-12-18 17:06:26,378 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 6 False Positive Rate: 0.0648 ± 0.0887
+2024-12-18 17:06:26,378 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Processing fold 7/10
+2024-12-18 17:06:26,378 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-18 17:06:26,872 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-18 17:06:27,059 - INFO - nn_control - Starting training process with early stopping.
+2024-12-18 17:06:27,059 - INFO - nn_control - Epoch 1/15
+2024-12-18 17:07:31,207 - INFO - nn_control - Epoch 1/15 - Train Loss: 0.6504, Train Acc: 0.5748 | Test Loss: 0.3704, Test Acc: 0.8321
+2024-12-18 17:07:31,438 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_7_best_model.pth
+2024-12-18 17:07:31,439 - INFO - nn_control - Epoch 2/15
+2024-12-18 17:08:35,141 - INFO - nn_control - Epoch 2/15 - Train Loss: 0.2717, Train Acc: 0.8875 | Test Loss: 0.2517, Test Acc: 0.8910
+2024-12-18 17:08:35,402 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_7_best_model.pth
+2024-12-18 17:08:35,403 - INFO - nn_control - Epoch 3/15
+2024-12-18 17:09:39,179 - INFO - nn_control - Epoch 3/15 - Train Loss: 0.1716, Train Acc: 0.9322 | Test Loss: 0.1825, Test Acc: 0.9311
+2024-12-18 17:09:39,412 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_7_best_model.pth
+2024-12-18 17:09:39,412 - INFO - nn_control - Epoch 4/15
+2024-12-18 17:10:42,575 - INFO - nn_control - Epoch 4/15 - Train Loss: 0.1201, Train Acc: 0.9543 | Test Loss: 0.1442, Test Acc: 0.9447
+2024-12-18 17:10:42,801 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_7_best_model.pth
+2024-12-18 17:10:42,801 - INFO - nn_control - Epoch 5/15
+2024-12-18 17:11:46,785 - INFO - nn_control - Epoch 5/15 - Train Loss: 0.0958, Train Acc: 0.9648 | Test Loss: 0.1318, Test Acc: 0.9477
+2024-12-18 17:11:47,031 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_7_best_model.pth
+2024-12-18 17:11:47,031 - INFO - nn_control - Epoch 6/15
+2024-12-18 17:12:50,379 - INFO - nn_control - Epoch 6/15 - Train Loss: 0.0764, Train Acc: 0.9718 | Test Loss: 0.1693, Test Acc: 0.9382
+2024-12-18 17:12:50,379 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1318
+2024-12-18 17:12:50,379 - INFO - nn_control - Epoch 7/15
+2024-12-18 17:13:53,406 - INFO - nn_control - Epoch 7/15 - Train Loss: 0.0703, Train Acc: 0.9748 | Test Loss: 0.1110, Test Acc: 0.9555
+2024-12-18 17:13:53,643 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_7_best_model.pth
+2024-12-18 17:13:53,643 - INFO - nn_control - Epoch 8/15
+2024-12-18 17:14:56,918 - INFO - nn_control - Epoch 8/15 - Train Loss: 0.0612, Train Acc: 0.9782 | Test Loss: 0.1541, Test Acc: 0.9419
+2024-12-18 17:14:56,918 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1110
+2024-12-18 17:14:56,918 - INFO - nn_control - Epoch 9/15
+2024-12-18 17:16:00,796 - INFO - nn_control - Epoch 9/15 - Train Loss: 0.0539, Train Acc: 0.9807 | Test Loss: 0.1446, Test Acc: 0.9443
+2024-12-18 17:16:00,796 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.1110
+2024-12-18 17:16:00,796 - INFO - nn_control - Epoch 10/15
+2024-12-18 17:17:04,346 - INFO - nn_control - Epoch 10/15 - Train Loss: 0.0482, Train Acc: 0.9830 | Test Loss: 0.1238, Test Acc: 0.9537
+2024-12-18 17:17:04,346 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.1110
+2024-12-18 17:17:04,347 - INFO - nn_control - Early stopping triggered.
+2024-12-18 17:17:04,347 - INFO - nn_control - Restored the best model state.
+2024-12-18 17:17:04,347 - INFO - nn_control - Training process completed.
+Fold 7 AUC: 0.9934
+2024-12-18 17:17:08,003 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 7 Sensitivity: 0.9758 ± 0.0155
+2024-12-18 17:17:08,003 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 7 False Negative Rate: 0.0242 ± 0.0155
+2024-12-18 17:17:08,004 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 7 Specificity: 0.9324 ± 0.0649
+2024-12-18 17:17:08,004 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 7 False Positive Rate: 0.0676 ± 0.0649
+2024-12-18 17:17:08,004 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Processing fold 8/10
+2024-12-18 17:17:08,004 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-18 17:17:08,508 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-18 17:17:08,699 - INFO - nn_control - Starting training process with early stopping.
+2024-12-18 17:17:08,699 - INFO - nn_control - Epoch 1/15
+2024-12-18 17:18:12,905 - INFO - nn_control - Epoch 1/15 - Train Loss: 0.6287, Train Acc: 0.5962 | Test Loss: 0.3575, Test Acc: 0.8625
+2024-12-18 17:18:13,134 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_8_best_model.pth
+2024-12-18 17:18:13,135 - INFO - nn_control - Epoch 2/15
+2024-12-18 17:19:17,940 - INFO - nn_control - Epoch 2/15 - Train Loss: 0.2623, Train Acc: 0.8924 | Test Loss: 0.2198, Test Acc: 0.9204
+2024-12-18 17:19:18,210 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_8_best_model.pth
+2024-12-18 17:19:18,210 - INFO - nn_control - Epoch 3/15
+2024-12-18 17:20:23,012 - INFO - nn_control - Epoch 3/15 - Train Loss: 0.1716, Train Acc: 0.9325 | Test Loss: 0.1514, Test Acc: 0.9414
+2024-12-18 17:20:23,250 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_8_best_model.pth
+2024-12-18 17:20:23,250 - INFO - nn_control - Epoch 4/15
+2024-12-18 17:21:27,470 - INFO - nn_control - Epoch 4/15 - Train Loss: 0.1157, Train Acc: 0.9565 | Test Loss: 0.1297, Test Acc: 0.9521
+2024-12-18 17:21:27,708 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_8_best_model.pth
+2024-12-18 17:21:27,708 - INFO - nn_control - Epoch 5/15
+2024-12-18 17:22:32,621 - INFO - nn_control - Epoch 5/15 - Train Loss: 0.0935, Train Acc: 0.9655 | Test Loss: 0.1133, Test Acc: 0.9578
+2024-12-18 17:22:32,857 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_8_best_model.pth
+2024-12-18 17:22:32,857 - INFO - nn_control - Epoch 6/15
+2024-12-18 17:23:37,719 - INFO - nn_control - Epoch 6/15 - Train Loss: 0.0775, Train Acc: 0.9713 | Test Loss: 0.1179, Test Acc: 0.9568
+2024-12-18 17:23:37,720 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1133
+2024-12-18 17:23:37,720 - INFO - nn_control - Epoch 7/15
+2024-12-18 17:24:42,707 - INFO - nn_control - Epoch 7/15 - Train Loss: 0.0680, Train Acc: 0.9759 | Test Loss: 0.2071, Test Acc: 0.9317
+2024-12-18 17:24:42,708 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.1133
+2024-12-18 17:24:42,708 - INFO - nn_control - Epoch 8/15
+2024-12-18 17:25:47,693 - INFO - nn_control - Epoch 8/15 - Train Loss: 0.0605, Train Acc: 0.9780 | Test Loss: 0.1704, Test Acc: 0.9456
+2024-12-18 17:25:47,693 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.1133
+2024-12-18 17:25:47,694 - INFO - nn_control - Early stopping triggered.
+2024-12-18 17:25:47,694 - INFO - nn_control - Restored the best model state.
+2024-12-18 17:25:47,694 - INFO - nn_control - Training process completed.
+Fold 8 AUC: 0.9972
+2024-12-18 17:25:51,506 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 8 Sensitivity: 0.9968 ± 0.0050
+2024-12-18 17:25:51,506 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 8 False Negative Rate: 0.0032 ± 0.0050
+2024-12-18 17:25:51,506 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 8 Specificity: 0.8988 ± 0.1640
+2024-12-18 17:25:51,506 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 8 False Positive Rate: 0.1012 ± 0.1640
+2024-12-18 17:25:51,506 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Processing fold 9/10
+2024-12-18 17:25:51,506 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-18 17:25:51,884 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-18 17:25:52,074 - INFO - nn_control - Starting training process with early stopping.
+2024-12-18 17:25:52,075 - INFO - nn_control - Epoch 1/15
+2024-12-18 17:26:57,567 - INFO - nn_control - Epoch 1/15 - Train Loss: 0.6151, Train Acc: 0.6063 | Test Loss: 0.4058, Test Acc: 0.8224
+2024-12-18 17:26:57,783 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_9_best_model.pth
+2024-12-18 17:26:57,783 - INFO - nn_control - Epoch 2/15
+2024-12-18 17:28:02,490 - INFO - nn_control - Epoch 2/15 - Train Loss: 0.2469, Train Acc: 0.8996 | Test Loss: 0.4023, Test Acc: 0.8492
+2024-12-18 17:28:02,762 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_9_best_model.pth
+2024-12-18 17:28:02,762 - INFO - nn_control - Epoch 3/15
+2024-12-18 17:29:07,981 - INFO - nn_control - Epoch 3/15 - Train Loss: 0.1595, Train Acc: 0.9374 | Test Loss: 0.4032, Test Acc: 0.8601
+2024-12-18 17:29:07,981 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.4023
+2024-12-18 17:29:07,981 - INFO - nn_control - Epoch 4/15
+2024-12-18 17:30:13,175 - INFO - nn_control - Epoch 4/15 - Train Loss: 0.1202, Train Acc: 0.9539 | Test Loss: 0.3721, Test Acc: 0.8707
+2024-12-18 17:30:13,411 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_9_best_model.pth
+2024-12-18 17:30:13,411 - INFO - nn_control - Epoch 5/15
+2024-12-18 17:31:18,575 - INFO - nn_control - Epoch 5/15 - Train Loss: 0.0930, Train Acc: 0.9652 | Test Loss: 0.3813, Test Acc: 0.8950
+2024-12-18 17:31:18,575 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.3721
+2024-12-18 17:31:18,575 - INFO - nn_control - Epoch 6/15
+2024-12-18 17:32:21,379 - INFO - nn_control - Epoch 6/15 - Train Loss: 0.0765, Train Acc: 0.9721 | Test Loss: 0.3714, Test Acc: 0.9021
+2024-12-18 17:32:21,607 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_9_best_model.pth
+2024-12-18 17:32:21,607 - INFO - nn_control - Epoch 7/15
+2024-12-18 17:33:23,883 - INFO - nn_control - Epoch 7/15 - Train Loss: 0.0686, Train Acc: 0.9746 | Test Loss: 0.4258, Test Acc: 0.8954
+2024-12-18 17:33:23,883 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.3714
+2024-12-18 17:33:23,883 - INFO - nn_control - Epoch 8/15
+2024-12-18 17:34:26,000 - INFO - nn_control - Epoch 8/15 - Train Loss: 0.0629, Train Acc: 0.9769 | Test Loss: 0.2384, Test Acc: 0.9194
+2024-12-18 17:34:26,236 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_9_best_model.pth
+2024-12-18 17:34:26,236 - INFO - nn_control - Epoch 9/15
+2024-12-18 17:35:28,394 - INFO - nn_control - Epoch 9/15 - Train Loss: 0.0529, Train Acc: 0.9811 | Test Loss: 0.2487, Test Acc: 0.9222
+2024-12-18 17:35:28,394 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.2384
+2024-12-18 17:35:28,394 - INFO - nn_control - Epoch 10/15
+2024-12-18 17:36:30,487 - INFO - nn_control - Epoch 10/15 - Train Loss: 0.0517, Train Acc: 0.9820 | Test Loss: 0.2841, Test Acc: 0.9132
+2024-12-18 17:36:30,487 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.2384
+2024-12-18 17:36:30,487 - INFO - nn_control - Epoch 11/15
+2024-12-18 17:37:32,578 - INFO - nn_control - Epoch 11/15 - Train Loss: 0.0403, Train Acc: 0.9854 | Test Loss: 0.2721, Test Acc: 0.9221
+2024-12-18 17:37:32,578 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.2384
+2024-12-18 17:37:32,578 - INFO - nn_control - Early stopping triggered.
+2024-12-18 17:37:32,579 - INFO - nn_control - Restored the best model state.
+2024-12-18 17:37:32,579 - INFO - nn_control - Training process completed.
+Fold 9 AUC: 0.9803
+2024-12-18 17:37:36,079 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 9 Sensitivity: 0.9585 ± 0.0363
+2024-12-18 17:37:36,080 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 9 False Negative Rate: 0.0415 ± 0.0363
+2024-12-18 17:37:36,080 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 9 Specificity: 0.8880 ± 0.2217
+2024-12-18 17:37:36,080 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 9 False Positive Rate: 0.1120 ± 0.2217
+2024-12-18 17:37:36,080 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Processing fold 10/10
+2024-12-18 17:37:36,080 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-18 17:37:36,565 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-18 17:37:36,751 - INFO - nn_control - Starting training process with early stopping.
+2024-12-18 17:37:36,752 - INFO - nn_control - Epoch 1/15
+2024-12-18 17:38:40,898 - INFO - nn_control - Epoch 1/15 - Train Loss: 0.6026, Train Acc: 0.6175 | Test Loss: 0.4205, Test Acc: 0.8158
+2024-12-18 17:38:41,113 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_10_best_model.pth
+2024-12-18 17:38:41,114 - INFO - nn_control - Epoch 2/15
+2024-12-18 17:39:43,449 - INFO - nn_control - Epoch 2/15 - Train Loss: 0.2468, Train Acc: 0.9014 | Test Loss: 0.3376, Test Acc: 0.8648
+2024-12-18 17:39:43,686 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_10_best_model.pth
+2024-12-18 17:39:43,686 - INFO - nn_control - Epoch 3/15
+2024-12-18 17:40:46,110 - INFO - nn_control - Epoch 3/15 - Train Loss: 0.1713, Train Acc: 0.9344 | Test Loss: 0.2632, Test Acc: 0.9003
+2024-12-18 17:40:46,343 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_10_best_model.pth
+2024-12-18 17:40:46,343 - INFO - nn_control - Epoch 4/15
+2024-12-18 17:41:48,797 - INFO - nn_control - Epoch 4/15 - Train Loss: 0.1195, Train Acc: 0.9550 | Test Loss: 0.2727, Test Acc: 0.9009
+2024-12-18 17:41:48,797 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.2632
+2024-12-18 17:41:48,797 - INFO - nn_control - Epoch 5/15
+2024-12-18 17:42:51,170 - INFO - nn_control - Epoch 5/15 - Train Loss: 0.0941, Train Acc: 0.9647 | Test Loss: 0.2270, Test Acc: 0.9241
+2024-12-18 17:42:51,413 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_10_best_model.pth
+2024-12-18 17:42:51,413 - INFO - nn_control - Epoch 6/15
+2024-12-18 17:43:53,874 - INFO - nn_control - Epoch 6/15 - Train Loss: 0.0805, Train Acc: 0.9704 | Test Loss: 0.4249, Test Acc: 0.8562
+2024-12-18 17:43:53,874 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.2270
+2024-12-18 17:43:53,874 - INFO - nn_control - Epoch 7/15
+2024-12-18 17:44:56,303 - INFO - nn_control - Epoch 7/15 - Train Loss: 0.0713, Train Acc: 0.9740 | Test Loss: 0.1774, Test Acc: 0.9339
+2024-12-18 17:44:56,539 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_10_best_model.pth
+2024-12-18 17:44:56,540 - INFO - nn_control - Epoch 8/15
+2024-12-18 17:45:58,962 - INFO - nn_control - Epoch 8/15 - Train Loss: 0.0656, Train Acc: 0.9759 | Test Loss: 0.1374, Test Acc: 0.9484
+2024-12-18 17:45:59,197 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_10_best_model.pth
+2024-12-18 17:45:59,197 - INFO - nn_control - Epoch 9/15
+2024-12-18 17:47:01,740 - INFO - nn_control - Epoch 9/15 - Train Loss: 0.0547, Train Acc: 0.9803 | Test Loss: 0.1585, Test Acc: 0.9437
+2024-12-18 17:47:01,740 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1374
+2024-12-18 17:47:01,740 - INFO - nn_control - Epoch 10/15
+2024-12-18 17:48:04,023 - INFO - nn_control - Epoch 10/15 - Train Loss: 0.0553, Train Acc: 0.9802 | Test Loss: 0.1261, Test Acc: 0.9521
+2024-12-18 17:48:04,260 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_10_best_model.pth
+2024-12-18 17:48:04,260 - INFO - nn_control - Epoch 11/15
+2024-12-18 17:49:06,508 - INFO - nn_control - Epoch 11/15 - Train Loss: 0.0457, Train Acc: 0.9837 | Test Loss: 0.1430, Test Acc: 0.9504
+2024-12-18 17:49:06,508 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1261
+2024-12-18 17:49:06,508 - INFO - nn_control - Epoch 12/15
+2024-12-18 17:50:08,745 - INFO - nn_control - Epoch 12/15 - Train Loss: 0.0427, Train Acc: 0.9852 | Test Loss: 0.1033, Test Acc: 0.9606
+2024-12-18 17:50:08,978 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_10_best_model.pth
+2024-12-18 17:50:08,978 - INFO - nn_control - Epoch 13/15
+2024-12-18 17:51:11,246 - INFO - nn_control - Epoch 13/15 - Train Loss: 0.0412, Train Acc: 0.9853 | Test Loss: 0.1227, Test Acc: 0.9601
+2024-12-18 17:51:11,246 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1033
+2024-12-18 17:51:11,246 - INFO - nn_control - Epoch 14/15
+2024-12-18 17:52:13,471 - INFO - nn_control - Epoch 14/15 - Train Loss: 0.0368, Train Acc: 0.9868 | Test Loss: 0.0897, Test Acc: 0.9660
+2024-12-18 17:52:13,710 - INFO - nn_control - Best model saved to models\epileptics_simulated_SNR_0_and_healthy_simulated\fold_10_best_model.pth
+2024-12-18 17:52:13,710 - INFO - nn_control - Epoch 15/15
+2024-12-18 17:53:16,102 - INFO - nn_control - Epoch 15/15 - Train Loss: 0.0333, Train Acc: 0.9881 | Test Loss: 0.1065, Test Acc: 0.9598
+2024-12-18 17:53:16,102 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0897
+2024-12-18 17:53:16,102 - INFO - nn_control - Restored the best model state.
+2024-12-18 17:53:16,102 - INFO - nn_control - Training process completed.
+Fold 10 AUC: 0.9963
+2024-12-18 17:53:19,701 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 10 Sensitivity: 0.9316 ± 0.0526
+2024-12-18 17:53:19,701 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 10 False Negative Rate: 0.0684 ± 0.0526
+2024-12-18 17:53:19,701 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 10 Specificity: 0.9865 ± 0.0248
+2024-12-18 17:53:19,702 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Fold 10 False Positive Rate: 0.0135 ± 0.0248
+c:\Users\honza\Desktop\Skripty\python\.venv\lib\site-packages\numpy\core\fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+c:\Users\honza\Desktop\Skripty\python\.venv\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+c:\Users\honza\Desktop\Skripty\python\.venv\lib\site-packages\numpy\core\_methods.py:206: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+c:\Users\honza\Desktop\Skripty\python\.venv\lib\site-packages\numpy\core\_methods.py:163: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+c:\Users\honza\Desktop\Skripty\python\.venv\lib\site-packages\numpy\core\_methods.py:198: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+2024-12-18 17:53:19,703 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Overall AUC Across All Folds:
+2024-12-18 17:53:19,703 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - AUC: 0.9904 ± 0.0067
+2024-12-18 17:53:19,703 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Overall Patinets Info Across All Folds:
+2024-12-18 17:53:19,703 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Sensitivity: 0.9590 ± 0.0263
+2024-12-18 17:53:19,704 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - False Negative Rate: 0.0410 ± 0.0263
+2024-12-18 17:53:19,704 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Specificity: 0 ± 0.0389.9350
+------------------
+2024-12-18 17:53:19,704 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Misclassification: 0.0650 ± 0.0389
+------------------
+2024-12-18 17:53:19,704 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Epileptic Accuracy: nan ± nan
+2024-12-18 17:53:19,704 - INFO - pipeline_epileptic_simulated_SNR_and_healthy_simulated - Healthy Accuracy: nan ± nan
+ROC data saved to diplomka\plots2\epileptics_simulated_SNR_0_and_healthy_simulated\roc_curve_data_SNR_0
+Traceback (most recent call last):

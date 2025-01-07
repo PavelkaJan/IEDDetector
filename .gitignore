@@ -1,0 +1,14 @@
+.venv/
+venv/
+src.egg-info
+*.pyc
+data/
+pipelines/HC/
+pipelines/P143/
+data_output/
+TESTING_DATASET/
+logs.log
+patient_report.html
+models/
+mini_dataset/
+example_mini_dataset/mini_dataset_model.pth

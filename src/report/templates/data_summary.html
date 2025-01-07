@@ -1,0 +1,57 @@
+<div class="header" onclick="toggleContent('dataSummary')">Data Summary</div>
+<div class="content" id="dataSummary">
+    <div class="section" style="font-size: 16px; line-height: 1.6;">
+        <!-- Total Patients -->
+        <p style="margin: 10px 0;"><strong>Total Number of Patients:</strong> {{ total_number_of_patients }}</p>
+        <ul style="margin-left: 20px; list-style-type: none; padding: 0;">
+            <li style="margin: 5px 0;"><strong>Number of Epileptic Real Patients:</strong> {{ summary_counts["epileptic_real"] }}</li>
+            <li style="margin: 5px 0;"><strong>Number of Epileptic Simulated Patients:</strong> {{ summary_counts["epileptic_simulated"] }}</li>
+            <li style="margin: 5px 0;"><strong>Number of Healthy Real Patients:</strong> {{ summary_counts["healthy_real"] }}</li>
+            <li style="margin: 5px 0;"><strong>Number of Healthy Simulated Patients:</strong> {{ summary_counts["healthy_simulated"] }}</li>
+        </ul>
+
+        <!-- Raw Epochs -->
+        <p style="margin: 20px 0 10px;"><strong>Total Number of Raw Epochs:</strong> {{ total_epochs }}</p>
+        <ul style="margin-left: 20px; list-style-type: none; padding: 0;">
+            <li style="margin: 5px 0;"><strong>Total Number of IED Raw Epochs:</strong> {{ raw_ied_epochs }}</li>
+            <li style="margin: 5px 0;"><strong>Total Number of Non-IED Raw Epochs:</strong> {{ raw_non_ied_epochs }}</li>
+        </ul>
+
+        <!-- Processed Epochs -->
+        <p style="margin: 20px 0 10px;"><strong>Total Number of Processed Epochs:</strong> {{ total_processed_epochs }}</p>
+        <ul style="margin-left: 20px; list-style-type: none; padding: 0;">
+            <li style="margin: 5px 0;"><strong>Total Number of IED Processed Epochs:</strong> {{ total_ied_epochs }}</li>
+            <li style="margin: 5px 0;"><strong>Total Number of Non-IED Processed Epochs:</strong> {{ total_non_ied_epochs }}</li>
+        </ul>
+
+        <!-- Embed Charts -->
+        <div class="chart" style="margin-top: 25px;">
+            <h3 onclick="toggleContent('barChart')">Number of Patients by Type</h3>
+            <div class="content" id="barChart">
+                {{ bar_chart_html | safe }}
+            </div>
+        </div>
+
+        <div class="chart" style="margin-top: 25px;">
+            <h3 onclick="toggleContent('rawEpochChart')">Raw Epochs by Patient Type</h3>
+            <div class="content" id="rawEpochChart">
+                {{ raw_epochs_chart_html | safe }}
+            </div>
+        </div>
+
+        <div class="chart" style="margin-top: 25px;">
+            <h3 onclick="toggleContent('rawEpochsPieChart')">Raw Epoch Distribution</h3>
+            <div class="content" id="rawEpochsPieChart">
+                {{ raw_epochs_pie_chart_html | safe }}
+            </div>
+        </div>
+        
+        <div class="chart" style="margin-top: 25px;">
+            <h3 onclick="toggleContent('processedEpochsPieChart')">Processed Epoch Distribution</h3>
+            <div class="content" id="processedEpochsPieChart">
+                {{ processed_epochs_pie_chart_html | safe }}
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,1026 @@
+ YoungAdultsSubject04,
+ ElderlyAdultsSubject48,
+ ElderlyAdultsSubject49,
+ YoungAdultsSubject28,
+ ElderlyAdultsSubject55,
+ ElderlyAdultsSubject60,
+ ElderlyAdultsSubject57,
+ ElderlyAdultsSubject46,
+ P143,
+ P249,
+ P310,
+ P315,
+ P317,
+ P311,
+ P312]
+  Test Set:
+[ElderlyAdultsSubject62,
+ ElderlyAdultsSubject70,
+ YoungAdultsSubject11,
+ YoungAdultsSubject05,
+ YoungAdultsSubject02,
+ YoungAdultsSubject25,
+ P322,
+ P314,
+ P323]
+
+
+Fold 2:
+  Train Set:
+[ElderlyAdultsSubject62,
+ ElderlyAdultsSubject70,
+ YoungAdultsSubject11,
+ YoungAdultsSubject05,
+ YoungAdultsSubject02,
+ YoungAdultsSubject26,
+ YoungAdultsSubject09,
+ ElderlyAdultsSubject66,
+ ElderlyAdultsSubject65,
+ ElderlyAdultsSubject44,
+ ElderlyAdultsSubject50,
+ YoungAdultsSubject17,
+ ElderlyAdultsSubject43,
+ ElderlyAdultsSubject58,
+ ElderlyAdultsSubject64,
+ YoungAdultsSubject21,
+ YoungAdultsSubject07,
+ YoungAdultsSubject10,
+ YoungAdultsSubject18,
+ ElderlyAdultsSubject40,
+ ElderlyAdultsSubject51,
+ ElderlyAdultsSubject54,
+ ElderlyAdultsSubject59,
+ YoungAdultsSubject22,
+ YoungAdultsSubject14,
+ ElderlyAdultsSubject41,
+ YoungAdultsSubject31,
+ YoungAdultsSubject19,
+ YoungAdultsSubject08,
+ YoungAdultsSubject23,
+ YoungAdultsSubject12,
+ YoungAdultsSubject20,
+ ElderlyAdultsSubject45,
+ YoungAdultsSubject16,
+ ElderlyAdultsSubject67,
+ YoungAdultsSubject27,
+ YoungAdultsSubject06,
+ YoungAdultsSubject03,
+ YoungAdultsSubject01,
+ YoungAdultsSubject04,
+ ElderlyAdultsSubject48,
+ ElderlyAdultsSubject49,
+ YoungAdultsSubject28,
+ ElderlyAdultsSubject55,
+ ElderlyAdultsSubject60,
+ YoungAdultsSubject25,
+ ElderlyAdultsSubject46,
+ P143,
+ P249,
+ P322,
+ P314,
+ P317,
+ P311,
+ P323]
+  Test Set:
+[ElderlyAdultsSubject47,
+ YoungAdultsSubject24,
+ YoungAdultsSubject13,
+ ElderlyAdultsSubject68,
+ ElderlyAdultsSubject63,
+ ElderlyAdultsSubject57,
+ P310,
+ P315,
+ P312]
+
+
+Fold 3:
+  Train Set:
+[ElderlyAdultsSubject62,
+ ElderlyAdultsSubject70,
+ YoungAdultsSubject11,
+ YoungAdultsSubject05,
+ YoungAdultsSubject02,
+ ElderlyAdultsSubject47,
+ YoungAdultsSubject24,
+ YoungAdultsSubject13,
+ ElderlyAdultsSubject68,
+ ElderlyAdultsSubject63,
+ ElderlyAdultsSubject50,
+ YoungAdultsSubject17,
+ ElderlyAdultsSubject43,
+ ElderlyAdultsSubject58,
+ ElderlyAdultsSubject64,
+ YoungAdultsSubject21,
+ YoungAdultsSubject07,
+ YoungAdultsSubject10,
+ YoungAdultsSubject18,
+ ElderlyAdultsSubject40,
+ ElderlyAdultsSubject51,
+ ElderlyAdultsSubject54,
+ ElderlyAdultsSubject59,
+ YoungAdultsSubject22,
+ YoungAdultsSubject14,
+ ElderlyAdultsSubject41,
+ YoungAdultsSubject31,
+ YoungAdultsSubject19,
+ YoungAdultsSubject08,
+ YoungAdultsSubject23,
+ YoungAdultsSubject12,
+ YoungAdultsSubject20,
+ ElderlyAdultsSubject45,
+ YoungAdultsSubject16,
+ ElderlyAdultsSubject67,
+ YoungAdultsSubject27,
+ YoungAdultsSubject06,
+ YoungAdultsSubject03,
+ YoungAdultsSubject01,
+ YoungAdultsSubject04,
+ ElderlyAdultsSubject48,
+ ElderlyAdultsSubject49,
+ YoungAdultsSubject28,
+ ElderlyAdultsSubject55,
+ ElderlyAdultsSubject60,
+ YoungAdultsSubject25,
+ ElderlyAdultsSubject57,
+ P249,
+ P310,
+ P322,
+ P315,
+ P317,
+ P311,
+ P323]
+  Test Set:
+[YoungAdultsSubject26,
+ YoungAdultsSubject09,
+ ElderlyAdultsSubject66,
+ ElderlyAdultsSubject65,
+ ElderlyAdultsSubject44,
+ ElderlyAdultsSubject46,
+ P143,
+ P314,
+ P312]
+
+
+Fold 4:
+  Train Set:
+[ElderlyAdultsSubject62,
+ ElderlyAdultsSubject70,
+ YoungAdultsSubject11,
+ YoungAdultsSubject05,
+ YoungAdultsSubject02,
+ ElderlyAdultsSubject47,
+ YoungAdultsSubject24,
+ YoungAdultsSubject13,
+ ElderlyAdultsSubject68,
+ ElderlyAdultsSubject63,
+ YoungAdultsSubject26,
+ YoungAdultsSubject09,
+ ElderlyAdultsSubject66,
+ ElderlyAdultsSubject65,
+ ElderlyAdultsSubject44,
+ YoungAdultsSubject21,
+ YoungAdultsSubject07,
+ YoungAdultsSubject10,
+ YoungAdultsSubject18,
+ ElderlyAdultsSubject40,
+ ElderlyAdultsSubject51,
+ ElderlyAdultsSubject54,
+ ElderlyAdultsSubject59,
+ YoungAdultsSubject22,
+ YoungAdultsSubject14,
+ ElderlyAdultsSubject41,
+ YoungAdultsSubject31,
+ YoungAdultsSubject19,
+ YoungAdultsSubject08,
+ YoungAdultsSubject23,
+ YoungAdultsSubject12,
+ YoungAdultsSubject20,
+ ElderlyAdultsSubject45,
+ YoungAdultsSubject16,
+ ElderlyAdultsSubject67,
+ YoungAdultsSubject27,
+ YoungAdultsSubject06,
+ YoungAdultsSubject03,
+ YoungAdultsSubject01,
+ YoungAdultsSubject04,
+ ElderlyAdultsSubject48,
+ ElderlyAdultsSubject49,
+ YoungAdultsSubject28,
+ ElderlyAdultsSubject55,
+ ElderlyAdultsSubject60,
+ YoungAdultsSubject25,
+ ElderlyAdultsSubject57,
+ ElderlyAdultsSubject46,
+ P143,
+ P249,
+ P322,
+ P314,
+ P317,
+ P312,
+ P323]
+  Test Set:
+[ElderlyAdultsSubject50,
+ YoungAdultsSubject17,
+ ElderlyAdultsSubject43,
+ ElderlyAdultsSubject58,
+ ElderlyAdultsSubject64,
+ P310,
+ P315,
+ P311]
+
+
+Fold 5:
+  Train Set:
+[ElderlyAdultsSubject62,
+ ElderlyAdultsSubject70,
+ YoungAdultsSubject11,
+ YoungAdultsSubject05,
+ YoungAdultsSubject02,
+ ElderlyAdultsSubject47,
+ YoungAdultsSubject24,
+ YoungAdultsSubject13,
+ ElderlyAdultsSubject68,
+ ElderlyAdultsSubject63,
+ YoungAdultsSubject26,
+ YoungAdultsSubject09,
+ ElderlyAdultsSubject66,
+ ElderlyAdultsSubject65,
+ ElderlyAdultsSubject44,
+ ElderlyAdultsSubject50,
+ YoungAdultsSubject17,
+ ElderlyAdultsSubject43,
+ ElderlyAdultsSubject58,
+ ElderlyAdultsSubject64,
+ ElderlyAdultsSubject51,
+ ElderlyAdultsSubject54,
+ ElderlyAdultsSubject59,
+ YoungAdultsSubject22,
+ YoungAdultsSubject14,
+ ElderlyAdultsSubject41,
+ YoungAdultsSubject31,
+ YoungAdultsSubject19,
+ YoungAdultsSubject08,
+ YoungAdultsSubject23,
+ YoungAdultsSubject12,
+ YoungAdultsSubject20,
+ ElderlyAdultsSubject45,
+ YoungAdultsSubject16,
+ ElderlyAdultsSubject67,
+ YoungAdultsSubject27,
+ YoungAdultsSubject06,
+ YoungAdultsSubject03,
+ YoungAdultsSubject01,
+ YoungAdultsSubject04,
+ ElderlyAdultsSubject48,
+ ElderlyAdultsSubject49,
+ YoungAdultsSubject28,
+ ElderlyAdultsSubject55,
+ ElderlyAdultsSubject60,
+ YoungAdultsSubject25,
+ ElderlyAdultsSubject57,
+ ElderlyAdultsSubject46,
+ P143,
+ P249,
+ P310,
+ P314,
+ P317,
+ P311,
+ P312]
+  Test Set:
+[YoungAdultsSubject21,
+ YoungAdultsSubject07,
+ YoungAdultsSubject10,
+ YoungAdultsSubject18,
+ ElderlyAdultsSubject40,
+ P322,
+ P315,
+ P323]
+
+
+Fold 6:
+  Train Set:
+[ElderlyAdultsSubject62,
+ ElderlyAdultsSubject70,
+ YoungAdultsSubject11,
+ YoungAdultsSubject05,
+ YoungAdultsSubject02,
+ ElderlyAdultsSubject47,
+ YoungAdultsSubject24,
+ YoungAdultsSubject13,
+ ElderlyAdultsSubject68,
+ ElderlyAdultsSubject63,
+ YoungAdultsSubject26,
+ YoungAdultsSubject09,
+ ElderlyAdultsSubject66,
+ ElderlyAdultsSubject65,
+ ElderlyAdultsSubject44,
+ ElderlyAdultsSubject50,
+ YoungAdultsSubject17,
+ ElderlyAdultsSubject43,
+ ElderlyAdultsSubject58,
+ ElderlyAdultsSubject64,
+ YoungAdultsSubject21,
+ YoungAdultsSubject07,
+ YoungAdultsSubject10,
+ YoungAdultsSubject18,
+ ElderlyAdultsSubject40,
+ ElderlyAdultsSubject41,
+ YoungAdultsSubject31,
+ YoungAdultsSubject19,
+ YoungAdultsSubject08,
+ YoungAdultsSubject23,
+ YoungAdultsSubject12,
+ YoungAdultsSubject20,
+ ElderlyAdultsSubject45,
+ YoungAdultsSubject16,
+ ElderlyAdultsSubject67,
+ YoungAdultsSubject27,
+ YoungAdultsSubject06,
+ YoungAdultsSubject03,
+ YoungAdultsSubject01,
+ YoungAdultsSubject04,
+ ElderlyAdultsSubject48,
+ ElderlyAdultsSubject49,
+ YoungAdultsSubject28,
+ ElderlyAdultsSubject55,
+ ElderlyAdultsSubject60,
+ YoungAdultsSubject25,
+ ElderlyAdultsSubject57,
+ ElderlyAdultsSubject46,
+ P143,
+ P249,
+ P310,
+ P314,
+ P315,
+ P312,
+ P323]
+  Test Set:
+[ElderlyAdultsSubject51,
+ ElderlyAdultsSubject54,
+ ElderlyAdultsSubject59,
+ YoungAdultsSubject22,
+ YoungAdultsSubject14,
+ P322,
+ P317,
+ P311]
+
+
+Fold 7:
+  Train Set:
+[ElderlyAdultsSubject62,
+ ElderlyAdultsSubject70,
+ YoungAdultsSubject11,
+ YoungAdultsSubject05,
+ YoungAdultsSubject02,
+ ElderlyAdultsSubject47,
+ YoungAdultsSubject24,
+ YoungAdultsSubject13,
+ ElderlyAdultsSubject68,
+ ElderlyAdultsSubject63,
+ YoungAdultsSubject26,
+ YoungAdultsSubject09,
+ ElderlyAdultsSubject66,
+ ElderlyAdultsSubject65,
+ ElderlyAdultsSubject44,
+ ElderlyAdultsSubject50,
+ YoungAdultsSubject17,
+ ElderlyAdultsSubject43,
+ ElderlyAdultsSubject58,
+ ElderlyAdultsSubject64,
+ YoungAdultsSubject21,
+ YoungAdultsSubject07,
+ YoungAdultsSubject10,
+ YoungAdultsSubject18,
+ ElderlyAdultsSubject40,
+ ElderlyAdultsSubject51,
+ ElderlyAdultsSubject54,
+ ElderlyAdultsSubject59,
+ YoungAdultsSubject22,
+ YoungAdultsSubject14,
+ YoungAdultsSubject12,
+ YoungAdultsSubject20,
+ ElderlyAdultsSubject45,
+ YoungAdultsSubject16,
+ ElderlyAdultsSubject67,
+ YoungAdultsSubject27,
+ YoungAdultsSubject06,
+ YoungAdultsSubject03,
+ YoungAdultsSubject01,
+ YoungAdultsSubject04,
+ ElderlyAdultsSubject48,
+ ElderlyAdultsSubject49,
+ YoungAdultsSubject28,
+ ElderlyAdultsSubject55,
+ ElderlyAdultsSubject60,
+ YoungAdultsSubject25,
+ ElderlyAdultsSubject57,
+ ElderlyAdultsSubject46,
+ P143,
+ P310,
+ P322,
+ P314,
+ P315,
+ P311,
+ P312]
+  Test Set:
+[ElderlyAdultsSubject41,
+ YoungAdultsSubject31,
+ YoungAdultsSubject19,
+ YoungAdultsSubject08,
+ YoungAdultsSubject23,
+ P249,
+ P317,
+ P323]
+
+
+Fold 8:
+  Train Set:
+[ElderlyAdultsSubject62,
+ ElderlyAdultsSubject70,
+ YoungAdultsSubject11,
+ YoungAdultsSubject05,
+ YoungAdultsSubject02,
+ ElderlyAdultsSubject47,
+ YoungAdultsSubject24,
+ YoungAdultsSubject13,
+ ElderlyAdultsSubject68,
+ ElderlyAdultsSubject63,
+ YoungAdultsSubject26,
+ YoungAdultsSubject09,
+ ElderlyAdultsSubject66,
+ ElderlyAdultsSubject65,
+ ElderlyAdultsSubject44,
+ ElderlyAdultsSubject50,
+ YoungAdultsSubject17,
+ ElderlyAdultsSubject43,
+ ElderlyAdultsSubject58,
+ ElderlyAdultsSubject64,
+ YoungAdultsSubject21,
+ YoungAdultsSubject07,
+ YoungAdultsSubject10,
+ YoungAdultsSubject18,
+ ElderlyAdultsSubject40,
+ ElderlyAdultsSubject51,
+ ElderlyAdultsSubject54,
+ ElderlyAdultsSubject59,
+ YoungAdultsSubject22,
+ YoungAdultsSubject14,
+ ElderlyAdultsSubject41,
+ YoungAdultsSubject31,
+ YoungAdultsSubject19,
+ YoungAdultsSubject08,
+ YoungAdultsSubject23,
+ YoungAdultsSubject27,
+ YoungAdultsSubject06,
+ YoungAdultsSubject03,
+ YoungAdultsSubject01,
+ YoungAdultsSubject04,
+ ElderlyAdultsSubject48,
+ ElderlyAdultsSubject49,
+ YoungAdultsSubject28,
+ ElderlyAdultsSubject55,
+ ElderlyAdultsSubject60,
+ YoungAdultsSubject25,
+ ElderlyAdultsSubject57,
+ ElderlyAdultsSubject46,
+ P143,
+ P310,
+ P322,
+ P314,
+ P317,
+ P312,
+ P323]
+  Test Set:
+[YoungAdultsSubject12,
+ YoungAdultsSubject20,
+ ElderlyAdultsSubject45,
+ YoungAdultsSubject16,
+ ElderlyAdultsSubject67,
+ P249,
+ P315,
+ P311]
+
+
+Fold 9:
+  Train Set:
+[ElderlyAdultsSubject62,
+ ElderlyAdultsSubject70,
+ YoungAdultsSubject11,
+ YoungAdultsSubject05,
+ YoungAdultsSubject02,
+ ElderlyAdultsSubject47,
+ YoungAdultsSubject24,
+ YoungAdultsSubject13,
+ ElderlyAdultsSubject68,
+ ElderlyAdultsSubject63,
+ YoungAdultsSubject26,
+ YoungAdultsSubject09,
+ ElderlyAdultsSubject66,
+ ElderlyAdultsSubject65,
+ ElderlyAdultsSubject44,
+ ElderlyAdultsSubject50,
+ YoungAdultsSubject17,
+ ElderlyAdultsSubject43,
+ ElderlyAdultsSubject58,
+ ElderlyAdultsSubject64,
+ YoungAdultsSubject21,
+ YoungAdultsSubject07,
+ YoungAdultsSubject10,
+ YoungAdultsSubject18,
+ ElderlyAdultsSubject40,
+ ElderlyAdultsSubject51,
+ ElderlyAdultsSubject54,
+ ElderlyAdultsSubject59,
+ YoungAdultsSubject22,
+ YoungAdultsSubject14,
+ ElderlyAdultsSubject41,
+ YoungAdultsSubject31,
+ YoungAdultsSubject19,
+ YoungAdultsSubject08,
+ YoungAdultsSubject23,
+ YoungAdultsSubject12,
+ YoungAdultsSubject20,
+ ElderlyAdultsSubject45,
+ YoungAdultsSubject16,
+ ElderlyAdultsSubject67,
+ ElderlyAdultsSubject48,
+ ElderlyAdultsSubject49,
+ YoungAdultsSubject28,
+ ElderlyAdultsSubject55,
+ ElderlyAdultsSubject60,
+ YoungAdultsSubject25,
+ ElderlyAdultsSubject57,
+ ElderlyAdultsSubject46,
+ P143,
+ P249,
+ P322,
+ P315,
+ P317,
+ P311,
+ P323]
+  Test Set:
+[YoungAdultsSubject27,
+ YoungAdultsSubject06,
+ YoungAdultsSubject03,
+ YoungAdultsSubject01,
+ YoungAdultsSubject04,
+ P310,
+ P314,
+ P312]
+
+
+Fold 10:
+  Train Set:
+[ElderlyAdultsSubject62,
+ ElderlyAdultsSubject70,
+ YoungAdultsSubject11,
+ YoungAdultsSubject05,
+ YoungAdultsSubject02,
+ ElderlyAdultsSubject47,
+ YoungAdultsSubject24,
+ YoungAdultsSubject13,
+ ElderlyAdultsSubject68,
+ ElderlyAdultsSubject63,
+ YoungAdultsSubject26,
+ YoungAdultsSubject09,
+ ElderlyAdultsSubject66,
+ ElderlyAdultsSubject65,
+ ElderlyAdultsSubject44,
+ ElderlyAdultsSubject50,
+ YoungAdultsSubject17,
+ ElderlyAdultsSubject43,
+ ElderlyAdultsSubject58,
+ ElderlyAdultsSubject64,
+ YoungAdultsSubject21,
+ YoungAdultsSubject07,
+ YoungAdultsSubject10,
+ YoungAdultsSubject18,
+ ElderlyAdultsSubject40,
+ ElderlyAdultsSubject51,
+ ElderlyAdultsSubject54,
+ ElderlyAdultsSubject59,
+ YoungAdultsSubject22,
+ YoungAdultsSubject14,
+ ElderlyAdultsSubject41,
+ YoungAdultsSubject31,
+ YoungAdultsSubject19,
+ YoungAdultsSubject08,
+ YoungAdultsSubject23,
+ YoungAdultsSubject12,
+ YoungAdultsSubject20,
+ ElderlyAdultsSubject45,
+ YoungAdultsSubject16,
+ ElderlyAdultsSubject67,
+ YoungAdultsSubject27,
+ YoungAdultsSubject06,
+ YoungAdultsSubject03,
+ YoungAdultsSubject01,
+ YoungAdultsSubject04,
+ YoungAdultsSubject25,
+ ElderlyAdultsSubject57,
+ ElderlyAdultsSubject46,
+ P249,
+ P310,
+ P322,
+ P315,
+ P317,
+ P311,
+ P323]
+  Test Set:
+[ElderlyAdultsSubject48,
+ ElderlyAdultsSubject49,
+ YoungAdultsSubject28,
+ ElderlyAdultsSubject55,
+ ElderlyAdultsSubject60,or
+ P143,
+ P314,
+ P312]
+
+
+2024-12-30 12:00:17,427 - INFO - pipeline_epileptic_real_and_healthy_real - Processing fold 1/10
+2024-12-30 12:00:17,427 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-30 12:00:19,016 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-30 12:00:20,067 - INFO - nn_control - Starting training process with early stopping.
+2024-12-30 12:00:20,067 - INFO - nn_control - Epoch 1/20
+2024-12-30 12:07:40,825 - INFO - nn_control - Epoch 1/20 - Train Loss: 0.1185, Train Acc: 0.9002 | Test Loss: 0.4634, Test Acc: 0.8432
+2024-12-30 12:07:41,050 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_1_best_model.pth
+2024-12-30 12:07:41,050 - INFO - nn_control - Epoch 2/20
+2024-12-30 12:08:34,869 - INFO - nn_control - Epoch 2/20 - Train Loss: 0.0372, Train Acc: 0.9654 | Test Loss: 0.6634, Test Acc: 0.7860
+2024-12-30 12:08:34,869 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.4634
+2024-12-30 12:08:34,869 - INFO - nn_control - Epoch 3/20
+2024-12-30 12:09:30,599 - INFO - nn_control - Epoch 3/20 - Train Loss: 0.0249, Train Acc: 0.9773 | Test Loss: 0.5061, Test Acc: 0.8188
+2024-12-30 12:09:30,599 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.4634
+2024-12-30 12:09:30,599 - INFO - nn_control - Epoch 4/20
+2024-12-30 12:10:26,177 - INFO - nn_control - Epoch 4/20 - Train Loss: 0.0193, Train Acc: 0.9827 | Test Loss: 0.0856, Test Acc: 0.9648
+2024-12-30 12:10:26,409 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_1_best_model.pth
+2024-12-30 12:10:26,409 - INFO - nn_control - Epoch 5/20
+2024-12-30 12:11:23,905 - INFO - nn_control - Epoch 5/20 - Train Loss: 0.0163, Train Acc: 0.9856 | Test Loss: 0.4634, Test Acc: 0.8242
+2024-12-30 12:11:23,905 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0856
+2024-12-30 12:11:23,905 - INFO - nn_control - Epoch 6/20
+2024-12-30 12:12:19,802 - INFO - nn_control - Epoch 6/20 - Train Loss: 0.0119, Train Acc: 0.9899 | Test Loss: 0.4922, Test Acc: 0.8169
+2024-12-30 12:12:19,802 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.0856
+2024-12-30 12:12:19,802 - INFO - nn_control - Epoch 7/20
+2024-12-30 12:13:13,860 - INFO - nn_control - Epoch 7/20 - Train Loss: 0.0111, Train Acc: 0.9903 | Test Loss: 0.1250, Test Acc: 0.9507
+2024-12-30 12:13:13,860 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.0856
+2024-12-30 12:13:13,860 - INFO - nn_control - Early stopping triggered.
+2024-12-30 12:13:13,860 - INFO - nn_control - Restored the best model state.
+2024-12-30 12:13:13,876 - INFO - nn_control - Training process completed.
+Fold 1 AUC: 0.9984
+2024-12-30 12:13:18,785 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 1 Sensitivity: 0.9260 ± 0.0546
+2024-12-30 12:13:18,785 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 1 False Negative Rate: 0.0740 ± 0.0546
+2024-12-30 12:13:18,785 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 1 Specificity: 0.9964 ± 0.0080
+2024-12-30 12:13:18,785 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 1 False Positive rate: 0.0036 ± 0.0080
+2024-12-30 12:13:18,785 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 1 Epileptic Accuracy: 0.9260
+2024-12-30 12:13:18,785 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 1 Healthy Accuracy: 0.9964
+2024-12-30 12:13:18,785 - INFO - pipeline_epileptic_real_and_healthy_real - Processing fold 2/10
+2024-12-30 12:13:18,785 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-30 12:13:19,116 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-30 12:13:19,306 - INFO - nn_control - Starting training process with early stopping.
+2024-12-30 12:13:19,306 - INFO - nn_control - Epoch 1/20
+2024-12-30 12:14:17,146 - INFO - nn_control - Epoch 1/20 - Train Loss: 0.1299, Train Acc: 0.8883 | Test Loss: 0.0753, Test Acc: 0.9790
+2024-12-30 12:14:17,371 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_2_best_model.pth
+2024-12-30 12:14:17,371 - INFO - nn_control - Epoch 2/20
+2024-12-30 12:15:14,714 - INFO - nn_control - Epoch 2/20 - Train Loss: 0.0348, Train Acc: 0.9703 | Test Loss: 0.0859, Test Acc: 0.9735
+2024-12-30 12:15:14,714 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0753
+2024-12-30 12:15:14,714 - INFO - nn_control - Epoch 3/20
+2024-12-30 12:16:11,774 - INFO - nn_control - Epoch 3/20 - Train Loss: 0.0209, Train Acc: 0.9830 | Test Loss: 0.0614, Test Acc: 0.9796
+2024-12-30 12:16:12,021 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_2_best_model.pth
+2024-12-30 12:16:12,021 - INFO - nn_control - Epoch 4/20
+2024-12-30 12:17:10,088 - INFO - nn_control - Epoch 4/20 - Train Loss: 0.0143, Train Acc: 0.9884 | Test Loss: 0.1353, Test Acc: 0.9596
+2024-12-30 12:17:10,088 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0614
+2024-12-30 12:17:10,088 - INFO - nn_control - Epoch 5/20
+2024-12-30 12:18:07,051 - INFO - nn_control - Epoch 5/20 - Train Loss: 0.0118, Train Acc: 0.9903 | Test Loss: 0.1236, Test Acc: 0.9683
+2024-12-30 12:18:07,051 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.0614
+2024-12-30 12:18:07,056 - INFO - nn_control - Epoch 6/20
+2024-12-30 12:19:03,398 - INFO - nn_control - Epoch 6/20 - Train Loss: 0.0095, Train Acc: 0.9923 | Test Loss: 0.0977, Test Acc: 0.9723
+2024-12-30 12:19:03,398 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.0614
+2024-12-30 12:19:03,398 - INFO - nn_control - Early stopping triggered.
+2024-12-30 12:19:03,398 - INFO - nn_control - Restored the best model state.
+2024-12-30 12:19:03,398 - INFO - nn_control - Training process completed.
+Fold 2 AUC: 0.9969
+2024-12-30 12:19:07,490 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 2 Sensitivity: 0.9084 ± 0.0846
+2024-12-30 12:19:07,490 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 2 False Negative Rate: 0.0916 ± 0.0846
+2024-12-30 12:19:07,490 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 2 Specificity: 0.9979 ± 0.0033
+2024-12-30 12:19:07,490 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 2 False Positive rate: 0.0021 ± 0.0033
+2024-12-30 12:19:07,490 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 2 Epileptic Accuracy: 0.9084
+2024-12-30 12:19:07,490 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 2 Healthy Accuracy: 0.9979
+2024-12-30 12:19:07,490 - INFO - pipeline_epileptic_real_and_healthy_real - Processing fold 3/10
+2024-12-30 12:19:07,490 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-30 12:19:07,808 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-30 12:19:07,998 - INFO - nn_control - Starting training process with early stopping.
+2024-12-30 12:19:07,998 - INFO - nn_control - Epoch 1/20
+2024-12-30 12:20:02,855 - INFO - nn_control - Epoch 1/20 - Train Loss: 0.1230, Train Acc: 0.8920 | Test Loss: 0.2362, Test Acc: 0.9080
+2024-12-30 12:20:03,099 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_3_best_model.pth
+2024-12-30 12:20:03,115 - INFO - nn_control - Epoch 2/20
+2024-12-30 12:20:57,106 - INFO - nn_control - Epoch 2/20 - Train Loss: 0.0327, Train Acc: 0.9710 | Test Loss: 0.1924, Test Acc: 0.9316
+2024-12-30 12:20:57,376 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_3_best_model.pth
+2024-12-30 12:20:57,376 - INFO - nn_control - Epoch 3/20
+2024-12-30 12:21:51,495 - INFO - nn_control - Epoch 3/20 - Train Loss: 0.0227, Train Acc: 0.9801 | Test Loss: 0.1800, Test Acc: 0.9302
+2024-12-30 12:21:51,762 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_3_best_model.pth
+2024-12-30 12:21:51,762 - INFO - nn_control - Epoch 4/20
+2024-12-30 12:22:45,832 - INFO - nn_control - Epoch 4/20 - Train Loss: 0.0157, Train Acc: 0.9867 | Test Loss: 0.1210, Test Acc: 0.9562
+2024-12-30 12:22:46,100 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_3_best_model.pth
+2024-12-30 12:22:46,100 - INFO - nn_control - Epoch 5/20
+2024-12-30 12:23:41,455 - INFO - nn_control - Epoch 5/20 - Train Loss: 0.0115, Train Acc: 0.9903 | Test Loss: 0.1027, Test Acc: 0.9630
+2024-12-30 12:23:41,728 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_3_best_model.pth
+2024-12-30 12:23:41,728 - INFO - nn_control - Epoch 6/20
+2024-12-30 12:24:36,596 - INFO - nn_control - Epoch 6/20 - Train Loss: 0.0106, Train Acc: 0.9914 | Test Loss: 0.1171, Test Acc: 0.9586
+2024-12-30 12:24:36,596 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1027
+2024-12-30 12:24:36,596 - INFO - nn_control - Epoch 7/20
+2024-12-30 12:25:30,462 - INFO - nn_control - Epoch 7/20 - Train Loss: 0.0078, Train Acc: 0.9933 | Test Loss: 0.2830, Test Acc: 0.8895
+2024-12-30 12:25:30,463 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.1027
+2024-12-30 12:25:30,463 - INFO - nn_control - Epoch 8/20
+2024-12-30 12:26:24,350 - INFO - nn_control - Epoch 8/20 - Train Loss: 0.0081, Train Acc: 0.9932 | Test Loss: 0.4623, Test Acc: 0.8562
+2024-12-30 12:26:24,350 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.1027
+2024-12-30 12:26:24,350 - INFO - nn_control - Early stopping triggered.
+2024-12-30 12:26:24,354 - INFO - nn_control - Restored the best model state.
+2024-12-30 12:26:24,354 - INFO - nn_control - Training process completed.
+Fold 3 AUC: 0.9994
+2024-12-30 12:26:29,121 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 3 Sensitivity: 0.7551 ± 0.1825
+2024-12-30 12:26:29,121 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 3 False Negative Rate: 0.2449 ± 0.1825
+2024-12-30 12:26:29,121 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 3 Specificity: 1.0000 ± 0.0000
+2024-12-30 12:26:29,121 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 3 False Positive rate: 0.0000 ± 0.0000
+2024-12-30 12:26:29,121 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 3 Epileptic Accuracy: 0.7551
+2024-12-30 12:26:29,121 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 3 Healthy Accuracy: 1.0000
+2024-12-30 12:26:29,121 - INFO - pipeline_epileptic_real_and_healthy_real - Processing fold 4/10
+2024-12-30 12:26:29,121 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-30 12:26:29,436 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-30 12:26:29,626 - INFO - nn_control - Starting training process with early stopping.
+2024-12-30 12:26:29,626 - INFO - nn_control - Epoch 1/20
+2024-12-30 12:27:25,199 - INFO - nn_control - Epoch 1/20 - Train Loss: 0.1253, Train Acc: 0.8902 | Test Loss: 0.1731, Test Acc: 0.9428
+2024-12-30 12:27:25,429 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_4_best_model.pth
+2024-12-30 12:27:25,429 - INFO - nn_control - Epoch 2/20
+2024-12-30 12:28:20,861 - INFO - nn_control - Epoch 2/20 - Train Loss: 0.0266, Train Acc: 0.9771 | Test Loss: 0.3402, Test Acc: 0.9200
+2024-12-30 12:28:20,861 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1731
+2024-12-30 12:28:20,861 - INFO - nn_control - Epoch 3/20
+2024-12-30 12:29:15,970 - INFO - nn_control - Epoch 3/20 - Train Loss: 0.0177, Train Acc: 0.9854 | Test Loss: 0.1881, Test Acc: 0.9504
+2024-12-30 12:29:15,970 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.1731
+2024-12-30 12:29:15,970 - INFO - nn_control - Epoch 4/20
+2024-12-30 12:30:10,380 - INFO - nn_control - Epoch 4/20 - Train Loss: 0.0134, Train Acc: 0.9891 | Test Loss: 0.2833, Test Acc: 0.9415
+2024-12-30 12:30:10,380 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.1731
+2024-12-30 12:30:10,380 - INFO - nn_control - Early stopping triggered.
+2024-12-30 12:30:10,380 - INFO - nn_control - Restored the best model state.
+2024-12-30 12:30:10,380 - INFO - nn_control - Training process completed.
+Fold 4 AUC: 0.9909
+2024-12-30 12:30:13,955 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 4 Sensitivity: 0.7428 ± 0.2222
+2024-12-30 12:30:13,955 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 4 False Negative Rate: 0.2572 ± 0.2222
+2024-12-30 12:30:13,955 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 4 Specificity: 0.9919 ± 0.0144
+2024-12-30 12:30:13,955 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 4 False Positive rate: 0.0081 ± 0.0144
+2024-12-30 12:30:13,955 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 4 Epileptic Accuracy: 0.7428
+2024-12-30 12:30:13,955 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 4 Healthy Accuracy: 0.9919
+2024-12-30 12:30:13,955 - INFO - pipeline_epileptic_real_and_healthy_real - Processing fold 5/10
+2024-12-30 12:30:13,955 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-30 12:30:14,274 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-30 12:30:14,453 - INFO - nn_control - Starting training process with early stopping.
+2024-12-30 12:30:14,453 - INFO - nn_control - Epoch 1/20
+2024-12-30 12:31:10,396 - INFO - nn_control - Epoch 1/20 - Train Loss: 0.1123, Train Acc: 0.9053 | Test Loss: 0.9403, Test Acc: 0.7370
+2024-12-30 12:31:10,652 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_5_best_model.pth
+2024-12-30 12:31:10,652 - INFO - nn_control - Epoch 2/20
+2024-12-30 12:33:04,756 - INFO - nn_control - Epoch 2/20 - Train Loss: 0.0319, Train Acc: 0.9720 | Test Loss: 0.6245, Test Acc: 0.7834
+2024-12-30 12:33:05,025 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_5_best_model.pth
+2024-12-30 12:33:05,026 - INFO - nn_control - Epoch 3/20
+2024-12-30 12:35:48,319 - INFO - nn_control - Epoch 3/20 - Train Loss: 0.0218, Train Acc: 0.9817 | Test Loss: 0.4255, Test Acc: 0.8293
+2024-12-30 12:35:48,594 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_5_best_model.pth
+2024-12-30 12:35:48,594 - INFO - nn_control - Epoch 4/20
+2024-12-30 12:38:28,605 - INFO - nn_control - Epoch 4/20 - Train Loss: 0.0160, Train Acc: 0.9870 | Test Loss: 0.1239, Test Acc: 0.9525
+2024-12-30 12:38:28,877 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_5_best_model.pth
+2024-12-30 12:38:28,877 - INFO - nn_control - Epoch 5/20
+2024-12-30 12:40:48,517 - INFO - nn_control - Epoch 5/20 - Train Loss: 0.0127, Train Acc: 0.9894 | Test Loss: 0.1288, Test Acc: 0.9548
+2024-12-30 12:40:48,517 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1239
+2024-12-30 12:40:48,517 - INFO - nn_control - Epoch 6/20
+2024-12-30 12:43:17,109 - INFO - nn_control - Epoch 6/20 - Train Loss: 0.0107, Train Acc: 0.9913 | Test Loss: 0.0833, Test Acc: 0.9736
+2024-12-30 12:43:17,378 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_5_best_model.pth
+2024-12-30 12:43:17,378 - INFO - nn_control - Epoch 7/20
+2024-12-30 12:45:55,728 - INFO - nn_control - Epoch 7/20 - Train Loss: 0.0081, Train Acc: 0.9931 | Test Loss: 0.1928, Test Acc: 0.9360
+2024-12-30 12:45:55,728 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0833
+2024-12-30 12:45:55,729 - INFO - nn_control - Epoch 8/20
+2024-12-30 12:48:28,943 - INFO - nn_control - Epoch 8/20 - Train Loss: 0.0084, Train Acc: 0.9932 | Test Loss: 0.0648, Test Acc: 0.9821
+2024-12-30 12:48:29,215 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_5_best_model.pth
+2024-12-30 12:48:29,215 - INFO - nn_control - Epoch 9/20
+2024-12-30 12:51:22,624 - INFO - nn_control - Epoch 9/20 - Train Loss: 0.0067, Train Acc: 0.9944 | Test Loss: 0.0860, Test Acc: 0.9746
+2024-12-30 12:51:22,625 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0648
+2024-12-30 12:51:22,625 - INFO - nn_control - Epoch 10/20
+2024-12-30 12:54:15,007 - INFO - nn_control - Epoch 10/20 - Train Loss: 0.0059, Train Acc: 0.9949 | Test Loss: 0.1003, Test Acc: 0.9699
+2024-12-30 12:54:15,007 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.0648
+2024-12-30 12:54:15,008 - INFO - nn_control - Epoch 11/20
+2024-12-30 12:56:59,602 - INFO - nn_control - Epoch 11/20 - Train Loss: 0.0059, Train Acc: 0.9948 | Test Loss: 0.0515, Test Acc: 0.9849
+2024-12-30 12:56:59,877 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_5_best_model.pth
+2024-12-30 12:56:59,877 - INFO - nn_control - Epoch 12/20
+2024-12-30 12:59:59,933 - INFO - nn_control - Epoch 12/20 - Train Loss: 0.0052, Train Acc: 0.9953 | Test Loss: 0.1794, Test Acc: 0.9448
+2024-12-30 12:59:59,933 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0515
+2024-12-30 12:59:59,933 - INFO - nn_control - Epoch 13/20
+2024-12-30 13:01:40,760 - INFO - nn_control - Epoch 13/20 - Train Loss: 0.0039, Train Acc: 0.9967 | Test Loss: 0.0968, Test Acc: 0.9683
+2024-12-30 13:01:40,760 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.0515
+2024-12-30 13:01:40,760 - INFO - nn_control - Epoch 14/20
+2024-12-30 13:02:35,587 - INFO - nn_control - Epoch 14/20 - Train Loss: 0.0047, Train Acc: 0.9961 | Test Loss: 0.0641, Test Acc: 0.9830
+2024-12-30 13:02:35,587 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.0515
+2024-12-30 13:02:35,587 - INFO - nn_control - Early stopping triggered.
+2024-12-30 13:02:35,588 - INFO - nn_control - Restored the best model state.
+2024-12-30 13:02:35,588 - INFO - nn_control - Training process completed.
+Fold 5 AUC: 0.9987
+2024-12-30 13:02:39,902 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 5 Sensitivity: 0.9549 ± 0.0509
+2024-12-30 13:02:39,902 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 5 False Negative Rate: 0.0451 ± 0.0509
+2024-12-30 13:02:39,902 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 5 Specificity: 0.9918 ± 0.0155
+2024-12-30 13:02:39,902 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 5 False Positive rate: 0.0082 ± 0.0155
+2024-12-30 13:02:39,902 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 5 Epileptic Accuracy: 0.9549
+2024-12-30 13:02:39,902 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 5 Healthy Accuracy: 0.9918
+2024-12-30 13:02:39,903 - INFO - pipeline_epileptic_real_and_healthy_real - Processing fold 6/10
+2024-12-30 13:02:39,903 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-30 13:02:40,220 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-30 13:02:40,413 - INFO - nn_control - Starting training process with early stopping.
+2024-12-30 13:02:40,413 - INFO - nn_control - Epoch 1/20
+2024-12-30 13:03:35,370 - INFO - nn_control - Epoch 1/20 - Train Loss: 0.1130, Train Acc: 0.9062 | Test Loss: 1.8421, Test Acc: 0.6339
+2024-12-30 13:03:35,627 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_6_best_model.pth
+2024-12-30 13:03:35,627 - INFO - nn_control - Epoch 2/20
+2024-12-30 13:04:31,108 - INFO - nn_control - Epoch 2/20 - Train Loss: 0.0321, Train Acc: 0.9703 | Test Loss: 0.8711, Test Acc: 0.7406
+2024-12-30 13:04:31,415 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_6_best_model.pth
+2024-12-30 13:04:31,415 - INFO - nn_control - Epoch 3/20
+2024-12-30 13:05:25,188 - INFO - nn_control - Epoch 3/20 - Train Loss: 0.0212, Train Acc: 0.9814 | Test Loss: 0.1905, Test Acc: 0.9268
+2024-12-30 13:05:25,442 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_6_best_model.pth
+2024-12-30 13:05:25,442 - INFO - nn_control - Epoch 4/20
+2024-12-30 13:06:18,547 - INFO - nn_control - Epoch 4/20 - Train Loss: 0.0152, Train Acc: 0.9866 | Test Loss: 0.4960, Test Acc: 0.8321
+2024-12-30 13:06:18,547 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1905
+2024-12-30 13:06:18,547 - INFO - nn_control - Epoch 5/20
+2024-12-30 13:07:11,653 - INFO - nn_control - Epoch 5/20 - Train Loss: 0.0123, Train Acc: 0.9897 | Test Loss: 0.6725, Test Acc: 0.7665
+2024-12-30 13:07:11,653 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.1905
+2024-12-30 13:07:11,653 - INFO - nn_control - Epoch 6/20
+2024-12-30 13:08:04,756 - INFO - nn_control - Epoch 6/20 - Train Loss: 0.0113, Train Acc: 0.9903 | Test Loss: 0.2721, Test Acc: 0.9060
+2024-12-30 13:08:04,756 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.1905
+2024-12-30 13:08:04,756 - INFO - nn_control - Early stopping triggered.
+2024-12-30 13:08:04,756 - INFO - nn_control - Restored the best model state.
+2024-12-30 13:08:04,756 - INFO - nn_control - Training process completed.
+Fold 6 AUC: 0.9989
+2024-12-30 13:08:08,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 6 Sensitivity: 0.6719 ± 0.1473
+2024-12-30 13:08:08,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 6 False Negative Rate: 0.3281 ± 0.1473
+2024-12-30 13:08:08,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 6 Specificity: 1.0000 ± 0.0000
+2024-12-30 13:08:08,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 6 False Positive rate: 0.0000 ± 0.0000
+2024-12-30 13:08:08,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 6 Epileptic Accuracy: 0.6719
+2024-12-30 13:08:08,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 6 Healthy Accuracy: 1.0000
+2024-12-30 13:08:08,727 - INFO - pipeline_epileptic_real_and_healthy_real - Processing fold 7/10
+2024-12-30 13:08:08,727 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-30 13:08:09,157 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-30 13:08:09,348 - INFO - nn_control - Starting training process with early stopping.
+2024-12-30 13:08:09,349 - INFO - nn_control - Epoch 1/20
+2024-12-30 13:09:03,292 - INFO - nn_control - Epoch 1/20 - Train Loss: 0.1061, Train Acc: 0.9106 | Test Loss: 0.8934, Test Acc: 0.7822
+2024-12-30 13:09:03,553 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_7_best_model.pth
+2024-12-30 13:09:03,554 - INFO - nn_control - Epoch 2/20
+2024-12-30 13:10:00,546 - INFO - nn_control - Epoch 2/20 - Train Loss: 0.0233, Train Acc: 0.9792 | Test Loss: 0.7675, Test Acc: 0.8079
+2024-12-30 13:10:00,816 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_7_best_model.pth
+2024-12-30 13:10:00,816 - INFO - nn_control - Epoch 3/20
+2024-12-30 13:10:55,947 - INFO - nn_control - Epoch 3/20 - Train Loss: 0.0181, Train Acc: 0.9845 | Test Loss: 0.4685, Test Acc: 0.8442
+2024-12-30 13:10:56,212 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_7_best_model.pth
+2024-12-30 13:10:56,212 - INFO - nn_control - Epoch 4/20
+2024-12-30 13:11:51,287 - INFO - nn_control - Epoch 4/20 - Train Loss: 0.0147, Train Acc: 0.9875 | Test Loss: 0.7285, Test Acc: 0.7950
+2024-12-30 13:11:51,287 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.4685
+2024-12-30 13:11:51,287 - INFO - nn_control - Epoch 5/20
+2024-12-30 13:12:46,186 - INFO - nn_control - Epoch 5/20 - Train Loss: 0.0129, Train Acc: 0.9891 | Test Loss: 0.1974, Test Acc: 0.9200
+2024-12-30 13:12:46,452 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_7_best_model.pth
+2024-12-30 13:12:46,452 - INFO - nn_control - Epoch 6/20
+2024-12-30 13:13:41,352 - INFO - nn_control - Epoch 6/20 - Train Loss: 0.0112, Train Acc: 0.9898 | Test Loss: 0.3871, Test Acc: 0.8662
+2024-12-30 13:13:41,352 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.1974
+2024-12-30 13:13:41,353 - INFO - nn_control - Epoch 7/20
+2024-12-30 13:14:36,204 - INFO - nn_control - Epoch 7/20 - Train Loss: 0.0107, Train Acc: 0.9908 | Test Loss: 0.7538, Test Acc: 0.7543
+2024-12-30 13:14:36,204 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.1974
+2024-12-30 13:14:36,204 - INFO - nn_control - Epoch 8/20
+2024-12-30 13:15:30,952 - INFO - nn_control - Epoch 8/20 - Train Loss: 0.0088, Train Acc: 0.9920 | Test Loss: 0.6296, Test Acc: 0.7933
+2024-12-30 13:15:30,952 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.1974
+2024-12-30 13:15:30,952 - INFO - nn_control - Early stopping triggered.
+2024-12-30 13:15:30,953 - INFO - nn_control - Restored the best model state.
+2024-12-30 13:15:30,953 - INFO - nn_control - Training process completed.
+Fold 7 AUC: 0.9888
+2024-12-30 13:15:36,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 7 Sensitivity: 0.7692 ± 0.1847
+2024-12-30 13:15:36,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 7 False Negative Rate: 0.2308 ± 0.1847
+2024-12-30 13:15:36,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 7 Specificity: 0.9927 ± 0.0146
+2024-12-30 13:15:36,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 7 False Positive rate: 0.0073 ± 0.0146
+2024-12-30 13:15:36,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 7 Epileptic Accuracy: 0.7692
+2024-12-30 13:15:36,727 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 7 Healthy Accuracy: 0.9927
+2024-12-30 13:15:36,727 - INFO - pipeline_epileptic_real_and_healthy_real - Processing fold 8/10
+2024-12-30 13:15:36,727 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-30 13:15:37,044 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-30 13:15:37,233 - INFO - nn_control - Starting training process with early stopping.
+2024-12-30 13:15:37,233 - INFO - nn_control - Epoch 1/20
+2024-12-30 13:16:32,503 - INFO - nn_control - Epoch 1/20 - Train Loss: 0.1013, Train Acc: 0.9152 | Test Loss: 0.8278, Test Acc: 0.7736
+2024-12-30 13:16:32,737 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_8_best_model.pth
+2024-12-30 13:16:32,738 - INFO - nn_control - Epoch 2/20
+2024-12-30 13:17:27,897 - INFO - nn_control - Epoch 2/20 - Train Loss: 0.0204, Train Acc: 0.9823 | Test Loss: 1.2971, Test Acc: 0.7572
+2024-12-30 13:17:27,897 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.8278
+2024-12-30 13:17:27,897 - INFO - nn_control - Epoch 3/20
+2024-12-30 13:18:23,198 - INFO - nn_control - Epoch 3/20 - Train Loss: 0.0134, Train Acc: 0.9885 | Test Loss: 0.5233, Test Acc: 0.8338
+2024-12-30 13:18:23,446 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_8_best_model.pth
+2024-12-30 13:18:23,446 - INFO - nn_control - Epoch 4/20
+2024-12-30 13:19:18,324 - INFO - nn_control - Epoch 4/20 - Train Loss: 0.0101, Train Acc: 0.9911 | Test Loss: 1.6125, Test Acc: 0.7029
+2024-12-30 13:19:18,324 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.5233
+2024-12-30 13:19:18,324 - INFO - nn_control - Epoch 5/20
+2024-12-30 13:20:13,083 - INFO - nn_control - Epoch 5/20 - Train Loss: 0.0077, Train Acc: 0.9934 | Test Loss: 1.7059, Test Acc: 0.6872
+2024-12-30 13:20:13,083 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.5233
+2024-12-30 13:20:13,084 - INFO - nn_control - Epoch 6/20
+2024-12-30 13:21:07,849 - INFO - nn_control - Epoch 6/20 - Train Loss: 0.0077, Train Acc: 0.9929 | Test Loss: 1.1609, Test Acc: 0.7396
+2024-12-30 13:21:07,849 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.5233
+2024-12-30 13:21:07,849 - INFO - nn_control - Early stopping triggered.
+2024-12-30 13:21:07,849 - INFO - nn_control - Restored the best model state.
+2024-12-30 13:21:07,850 - INFO - nn_control - Training process completed.
+Fold 8 AUC: 0.9779
+2024-12-30 13:21:12,471 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 8 Sensitivity: 0.5490 ± 0.1377
+2024-12-30 13:21:12,471 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 8 False Negative Rate: 0.4510 ± 0.1377
+2024-12-30 13:21:12,471 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 8 Specificity: 0.9998 ± 0.0003
+2024-12-30 13:21:12,471 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 8 False Positive rate: 0.0002 ± 0.0003
+2024-12-30 13:21:12,472 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 8 Epileptic Accuracy: 0.5490
+2024-12-30 13:21:12,472 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 8 Healthy Accuracy: 0.9998
+2024-12-30 13:21:12,472 - INFO - pipeline_epileptic_real_and_healthy_real - Processing fold 9/10
+2024-12-30 13:21:12,472 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-30 13:21:12,900 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-30 13:21:13,086 - INFO - nn_control - Starting training process with early stopping.
+2024-12-30 13:21:13,087 - INFO - nn_control - Epoch 1/20
+2024-12-30 13:22:07,506 - INFO - nn_control - Epoch 1/20 - Train Loss: 0.1297, Train Acc: 0.8835 | Test Loss: 0.3681, Test Acc: 0.8453
+2024-12-30 13:22:07,758 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_9_best_model.pth
+2024-12-30 13:22:07,759 - INFO - nn_control - Epoch 2/20
+2024-12-30 13:23:01,898 - INFO - nn_control - Epoch 2/20 - Train Loss: 0.0516, Train Acc: 0.9523 | Test Loss: 0.0198, Test Acc: 0.9961
+2024-12-30 13:23:02,159 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_9_best_model.pth
+2024-12-30 13:23:02,159 - INFO - nn_control - Epoch 3/20
+2024-12-30 13:23:56,405 - INFO - nn_control - Epoch 3/20 - Train Loss: 0.0273, Train Acc: 0.9764 | Test Loss: 0.1588, Test Acc: 0.9302
+2024-12-30 13:23:56,405 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0198
+2024-12-30 13:23:56,405 - INFO - nn_control - Epoch 4/20
+2024-12-30 13:24:50,617 - INFO - nn_control - Epoch 4/20 - Train Loss: 0.0194, Train Acc: 0.9840 | Test Loss: 0.0195, Test Acc: 0.9943
+2024-12-30 13:24:50,894 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_9_best_model.pth
+2024-12-30 13:24:50,895 - INFO - nn_control - Epoch 5/20
+2024-12-30 13:25:45,126 - INFO - nn_control - Epoch 5/20 - Train Loss: 0.0158, Train Acc: 0.9871 | Test Loss: 0.6418, Test Acc: 0.7744
+2024-12-30 13:25:45,126 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0195
+2024-12-30 13:25:45,126 - INFO - nn_control - Epoch 6/20
+2024-12-30 13:26:39,422 - INFO - nn_control - Epoch 6/20 - Train Loss: 0.0236, Train Acc: 0.9821 | Test Loss: 0.0128, Test Acc: 0.9962
+2024-12-30 13:26:39,688 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_9_best_model.pth
+2024-12-30 13:26:39,688 - INFO - nn_control - Epoch 7/20
+2024-12-30 13:27:33,873 - INFO - nn_control - Epoch 7/20 - Train Loss: 0.0108, Train Acc: 0.9910 | Test Loss: 0.4945, Test Acc: 0.8387
+2024-12-30 13:27:33,873 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0128
+2024-12-30 13:27:33,873 - INFO - nn_control - Epoch 8/20
+2024-12-30 13:28:28,073 - INFO - nn_control - Epoch 8/20 - Train Loss: 0.0485, Train Acc: 0.9547 | Test Loss: 0.0104, Test Acc: 0.9968
+2024-12-30 13:28:28,923 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_9_best_model.pth
+2024-12-30 13:28:28,923 - INFO - nn_control - Epoch 9/20
+2024-12-30 13:29:23,175 - INFO - nn_control - Epoch 9/20 - Train Loss: 0.0086, Train Acc: 0.9927 | Test Loss: 0.0109, Test Acc: 0.9967
+2024-12-30 13:29:23,176 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0104
+2024-12-30 13:29:23,176 - INFO - nn_control - Epoch 10/20
+2024-12-30 13:30:17,399 - INFO - nn_control - Epoch 10/20 - Train Loss: 0.0081, Train Acc: 0.9933 | Test Loss: 0.0153, Test Acc: 0.9946
+2024-12-30 13:30:17,399 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.0104
+2024-12-30 13:30:17,399 - INFO - nn_control - Epoch 11/20
+2024-12-30 13:31:11,654 - INFO - nn_control - Epoch 11/20 - Train Loss: 0.0071, Train Acc: 0.9941 | Test Loss: 0.0112, Test Acc: 0.9953
+2024-12-30 13:31:11,654 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.0104
+2024-12-30 13:31:11,654 - INFO - nn_control - Early stopping triggered.
+2024-12-30 13:31:11,655 - INFO - nn_control - Restored the best model state.
+2024-12-30 13:31:11,655 - INFO - nn_control - Training process completed.
+Fold 9 AUC: 0.9999
+2024-12-30 13:31:15,085 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 9 Sensitivity: 0.9938 ± 0.0067
+2024-12-30 13:31:15,085 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 9 False Negative Rate: 0.0062 ± 0.0067
+2024-12-30 13:31:15,085 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 9 Specificity: 0.9961 ± 0.0056
+2024-12-30 13:31:15,085 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 9 False Positive rate: 0.0039 ± 0.0056
+2024-12-30 13:31:15,085 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 9 Epileptic Accuracy: 0.9938
+2024-12-30 13:31:15,085 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 9 Healthy Accuracy: 0.9961
+2024-12-30 13:31:15,086 - INFO - pipeline_epileptic_real_and_healthy_real - Processing fold 10/10
+2024-12-30 13:31:15,086 - INFO - nn_control - Preparing DataLoader instances for training and testing.
+2024-12-30 13:31:15,519 - INFO - nn_control - Initializing model, criterion, and optimizer.
+2024-12-30 13:31:15,704 - INFO - nn_control - Starting training process with early stopping.
+2024-12-30 13:31:15,704 - INFO - nn_control - Epoch 1/20
+2024-12-30 13:32:09,339 - INFO - nn_control - Epoch 1/20 - Train Loss: 0.1200, Train Acc: 0.8939 | Test Loss: 0.2362, Test Acc: 0.9201
+2024-12-30 13:32:09,570 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_10_best_model.pth
+2024-12-30 13:32:09,570 - INFO - nn_control - Epoch 2/20
+2024-12-30 13:33:03,054 - INFO - nn_control - Epoch 2/20 - Train Loss: 0.0369, Train Acc: 0.9654 | Test Loss: 0.0420, Test Acc: 0.9865
+2024-12-30 13:33:03,290 - INFO - nn_control - Best model saved to models_20241230\epileptics_real_and_healthy_real_4s_epochy\fold_10_best_model.pth
+2024-12-30 13:33:03,290 - INFO - nn_control - Epoch 3/20
+2024-12-30 13:33:56,854 - INFO - nn_control - Epoch 3/20 - Train Loss: 0.0232, Train Acc: 0.9804 | Test Loss: 0.3414, Test Acc: 0.8851
+2024-12-30 13:33:56,854 - INFO - nn_control - No improvement for 1 epoch(s). Best Loss: 0.0420
+2024-12-30 13:33:56,854 - INFO - nn_control - Epoch 4/20
+2024-12-30 13:34:50,478 - INFO - nn_control - Epoch 4/20 - Train Loss: 0.0153, Train Acc: 0.9870 | Test Loss: 0.1389, Test Acc: 0.9470
+2024-12-30 13:34:50,478 - INFO - nn_control - No improvement for 2 epoch(s). Best Loss: 0.0420
+2024-12-30 13:34:50,478 - INFO - nn_control - Epoch 5/20
+2024-12-30 13:35:44,067 - INFO - nn_control - Epoch 5/20 - Train Loss: 0.0127, Train Acc: 0.9893 | Test Loss: 0.0962, Test Acc: 0.9646
+2024-12-30 13:35:44,067 - INFO - nn_control - No improvement for 3 epoch(s). Best Loss: 0.0420
+2024-12-30 13:35:44,067 - INFO - nn_control - Early stopping triggered.
+2024-12-30 13:35:44,067 - INFO - nn_control - Restored the best model state.
+2024-12-30 13:35:44,067 - INFO - nn_control - Training process completed.
+Fold 10 AUC: 0.9998
+2024-12-30 13:35:47,867 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 10 Sensitivity: 0.9585 ± 0.0478
+2024-12-30 13:35:47,867 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 10 False Negative Rate: 0.0415 ± 0.0478
+2024-12-30 13:35:47,867 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 10 Specificity: 0.9986 ± 0.0023
+2024-12-30 13:35:47,867 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 10 False Positive rate: 0.0014 ± 0.0023
+2024-12-30 13:35:47,867 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 10 Epileptic Accuracy: 0.9585
+2024-12-30 13:35:47,867 - INFO - pipeline_epileptic_real_and_healthy_real - Fold 10 Healthy Accuracy: 0.9986
+c:\Users\honza\Desktop\Skripty\python\.venv\lib\site-packages\numpy\core\fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+c:\Users\honza\Desktop\Skripty\python\.venv\lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+c:\Users\honza\Desktop\Skripty\python\.venv\lib\site-packages\numpy\core\_methods.py:206: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+c:\Users\honza\Desktop\Skripty\python\.venv\lib\site-packages\numpy\core\_methods.py:163: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+c:\Users\honza\Desktop\Skripty\python\.venv\lib\site-packages\numpy\core\_methods.py:198: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+2024-12-30 13:35:47,898 - INFO - pipeline_epileptic_real_and_healthy_real -
+Overall AUC Across All Folds:
+2024-12-30 13:35:47,898 - INFO - pipeline_epileptic_real_and_healthy_real - AUC: 0.9950 ± 0.0068
+2024-12-30 13:35:47,898 - INFO - pipeline_epileptic_real_and_healthy_real - Overall Patinets Info Across All Folds:
+2024-12-30 13:35:47,898 - INFO - pipeline_epileptic_real_and_healthy_real - Sensitivity: 0.8230 ± 0.1395
+2024-12-30 13:35:47,899 - INFO - pipeline_epileptic_real_and_healthy_real - False Negative Rate: 0.1770 ± 0.1395
+2024-12-30 13:35:47,899 - INFO - pipeline_epileptic_real_and_healthy_real - Specificity: 0.9965 ± 0.0032
+2024-12-30 13:35:47,899 - INFO - pipeline_epileptic_real_and_healthy_real - Misclassification: 0.0035 ± 0.0032
+2024-12-30 13:35:47,899 - INFO - pipeline_epileptic_real_and_healthy_real - Epileptic Accuracy: nan ± nan
+2024-12-30 13:35:47,899 - INFO - pipeline_epileptic_real_and_healthy_real - Healthy Accuracy: nan ± nan
+ROC data saved to diplomka20243012\epileptics_real_and_healthy_real_4s_epochy\roc_curve_data
+PS C:\Users\honza\Desktop\Skripty\python> 

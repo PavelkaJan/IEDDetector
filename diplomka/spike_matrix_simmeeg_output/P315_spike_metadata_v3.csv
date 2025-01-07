@@ -1,0 +1,26 @@
+Patient ID,Epoch,Channel Index,Channel Name
+P315,epoch_24.npy,13,T3
+P315,epoch_39.npy,16,T6
+P315,epoch_29.npy,12,F8
+P315,epoch_61.npy,13,T3
+P315,epoch_77.npy,14,T4
+P315,epoch_42.npy,1,Fp1
+P315,epoch_26.npy,12,F8
+P315,epoch_18.npy,18,Cz
+P315,epoch_44.npy,11,F7
+P315,epoch_48.npy,15,T5
+P315,epoch_47.npy,15,T5
+P315,epoch_30.npy,2,Fp2
+P315,epoch_65.npy,13,T3
+P315,epoch_47.npy,15,T5
+P315,epoch_59.npy,12,F8
+P315,epoch_30.npy,2,Fp2
+P315,epoch_37.npy,2,Fp2
+P315,epoch_31.npy,2,Fp2
+P315,epoch_41.npy,14,T4
+P315,epoch_52.npy,17,Fz
+P315,epoch_25.npy,14,T4
+P315,epoch_16.npy,18,Cz
+P315,epoch_57.npy,14,T4
+P315,epoch_86.npy,14,T4
+P315,epoch_43.npy,14,T4

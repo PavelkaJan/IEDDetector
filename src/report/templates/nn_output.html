@@ -1,0 +1,49 @@
+<div class="header" onclick="toggleContent('nnOutput')">Neural Network Output</div>
+<div class="content" id="nnOutput">
+    <div class="section">
+        <!-- Final Metrics Section -->
+        <h3 class="header" onclick="toggleContent('finalMetrics')">Final Metrics</h3>
+        <div class="content" id="finalMetrics">
+            <div class="metrics-container">
+                <div class="metric">
+                    <span class="metric-label"><strong>AUC:</strong></span>
+                    <span class="metric-value">{{ "%.4f" | format(final_metrics.auc) }}</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label"><strong>Accuracy:</strong></span>
+                    <span class="metric-value">{{ "%.4f" | format(final_metrics.accuracy) }}</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label"><strong>Precision:</strong></span>
+                    <span class="metric-value">{{ "%.4f" | format(final_metrics.precision) }}</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label"><strong>Recall:</strong></span>
+                    <span class="metric-value">{{ "%.4f" | format(final_metrics.recall) }}</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label"><strong>F1 Score:</strong></span>
+                    <span class="metric-value">{{ "%.4f" | format(final_metrics.f1_score) }}</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROC Curve Section -->
+        <h3 onclick="toggleContent('rocCurve')">ROC Curve</h3>
+        <div class="content" id="rocCurve">
+            {{ roc_curve_html | safe }}
+        </div>
+
+        <!-- Loss Curve Section -->
+        <h3 onclick="toggleContent('lossCurve')">Loss Over Epochs</h3>
+        <div class="content" id="lossCurve">
+            {{ loss_curve_html | safe }}
+        </div>
+
+        <!-- Accuracy Curve Section -->
+        <h3 onclick="toggleContent('accuracyCurve')">Accuracy Over Epochs</h3>
+        <div class="content" id="accuracyCurve">
+            {{ accuracy_curve_html | safe }}
+        </div>
+    </div>
+</div>

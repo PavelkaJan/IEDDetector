@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Report</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header, .section h3 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #444;
+            cursor: pointer;
+            padding: 15px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s;
+        }
+        .header:hover, .section h3:hover {
+            background-color: #cfcfcf;
+        }
+        .content {
+            display: none;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .chart {
+            margin: 20px 0;
+        }
+    </style>
+    <script>
+        function toggleContent(id) {
+            const content = document.getElementById(id);
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header" onclick="toggleContent('inputData')">Input Data</div>
+<div class="content" id="inputData">
+    
+        <div class="section">
+            <h3 onclick="toggleContent('typehealthy_real')">
+                Healthy Real Patients
+            </h3>
+            <div class="content" id="typehealthy_real">
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject40')">
+                    Patient ElderlyAdultsSubject40 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject40">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject40</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject40</p>
+                    <p><strong>Raw Epoch Count:</strong> 360</p>
+                    <p><strong>Processed Epoch Count:</strong> 1080</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject41')">
+                    Patient ElderlyAdultsSubject41 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject41">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject41</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject41</p>
+                    <p><strong>Raw Epoch Count:</strong> 387</p>
+                    <p><strong>Processed Epoch Count:</strong> 1161</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject43')">
+                    Patient ElderlyAdultsSubject43 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject43">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject43</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject43</p>
+                    <p><strong>Raw Epoch Count:</strong> 333</p>
+                    <p><strong>Processed Epoch Count:</strong> 999</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject44')">
+                    Patient ElderlyAdultsSubject44 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject44">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject44</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject44</p>
+                    <p><strong>Raw Epoch Count:</strong> 417</p>
+                    <p><strong>Processed Epoch Count:</strong> 1251</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject45')">
+                    Patient ElderlyAdultsSubject45 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject45">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject45</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject45</p>
+                    <p><strong>Raw Epoch Count:</strong> 204</p>
+                    <p><strong>Processed Epoch Count:</strong> 612</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject46')">
+                    Patient ElderlyAdultsSubject46 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject46">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject46</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject46</p>
+                    <p><strong>Raw Epoch Count:</strong> 210</p>
+                    <p><strong>Processed Epoch Count:</strong> 630</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject47')">
+                    Patient ElderlyAdultsSubject47 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject47">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject47</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject47</p>
+                    <p><strong>Raw Epoch Count:</strong> 315</p>
+                    <p><strong>Processed Epoch Count:</strong> 945</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject48')">
+                    Patient ElderlyAdultsSubject48 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject48">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject48</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject48</p>
+                    <p><strong>Raw Epoch Count:</strong> 414</p>
+                    <p><strong>Processed Epoch Count:</strong> 1242</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject49')">
+                    Patient ElderlyAdultsSubject49 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject49">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject49</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject49</p>
+                    <p><strong>Raw Epoch Count:</strong> 405</p>
+                    <p><strong>Processed Epoch Count:</strong> 1215</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject50')">
+                    Patient ElderlyAdultsSubject50 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject50">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject50</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject50</p>
+                    <p><strong>Raw Epoch Count:</strong> 402</p>
+                    <p><strong>Processed Epoch Count:</strong> 1206</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject51')">
+                    Patient ElderlyAdultsSubject51 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject51">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject51</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject51</p>
+                    <p><strong>Raw Epoch Count:</strong> 420</p>
+                    <p><strong>Processed Epoch Count:</strong> 1260</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject54')">
+                    Patient ElderlyAdultsSubject54 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject54">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject54</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject54</p>
+                    <p><strong>Raw Epoch Count:</strong> 393</p>
+                    <p><strong>Processed Epoch Count:</strong> 1179</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject55')">
+                    Patient ElderlyAdultsSubject55 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject55">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject55</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject55</p>
+                    <p><strong>Raw Epoch Count:</strong> 111</p>
+                    <p><strong>Processed Epoch Count:</strong> 333</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject57')">
+                    Patient ElderlyAdultsSubject57 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject57">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject57</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject57</p>
+                    <p><strong>Raw Epoch Count:</strong> 405</p>
+                    <p><strong>Processed Epoch Count:</strong> 1215</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject58')">
+                    Patient ElderlyAdultsSubject58 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject58">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject58</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject58</p>
+                    <p><strong>Raw Epoch Count:</strong> 387</p>
+                    <p><strong>Processed Epoch Count:</strong> 1161</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject59')">
+                    Patient ElderlyAdultsSubject59 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject59">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject59</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject59</p>
+                    <p><strong>Raw Epoch Count:</strong> 369</p>
+                    <p><strong>Processed Epoch Count:</strong> 1107</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject60')">
+                    Patient ElderlyAdultsSubject60 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject60">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject60</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject60</p>
+                    <p><strong>Raw Epoch Count:</strong> 408</p>
+                    <p><strong>Processed Epoch Count:</strong> 1224</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject62')">
+                    Patient ElderlyAdultsSubject62 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject62">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject62</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject62</p>
+                    <p><strong>Raw Epoch Count:</strong> 198</p>
+                    <p><strong>Processed Epoch Count:</strong> 594</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject63')">
+                    Patient ElderlyAdultsSubject63 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject63">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject63</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject63</p>
+                    <p><strong>Raw Epoch Count:</strong> 420</p>
+                    <p><strong>Processed Epoch Count:</strong> 1260</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject64')">
+                    Patient ElderlyAdultsSubject64 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject64">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject64</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject64</p>
+                    <p><strong>Raw Epoch Count:</strong> 366</p>
+                    <p><strong>Processed Epoch Count:</strong> 1098</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject65')">
+                    Patient ElderlyAdultsSubject65 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject65">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject65</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject65</p>
+                    <p><strong>Raw Epoch Count:</strong> 405</p>
+                    <p><strong>Processed Epoch Count:</strong> 1215</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject66')">
+                    Patient ElderlyAdultsSubject66 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject66">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject66</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject66</p>
+                    <p><strong>Raw Epoch Count:</strong> 414</p>
+                    <p><strong>Processed Epoch Count:</strong> 1242</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject67')">
+                    Patient ElderlyAdultsSubject67 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject67">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject67</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject67</p>
+                    <p><strong>Raw Epoch Count:</strong> 369</p>
+                    <p><strong>Processed Epoch Count:</strong> 1107</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject68')">
+                    Patient ElderlyAdultsSubject68 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject68">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject68</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject68</p>
+                    <p><strong>Raw Epoch Count:</strong> 417</p>
+                    <p><strong>Processed Epoch Count:</strong> 1251</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientElderlyAdultsSubject70')">
+                    Patient ElderlyAdultsSubject70 - healthy_real
+                </div>
+                <div class="content" id="patientElderlyAdultsSubject70">
+                    <p><strong>Patient ID:</strong> ElderlyAdultsSubject70</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\ElderlyAdultsSubject70</p>
+                    <p><strong>Raw Epoch Count:</strong> 390</p>
+                    <p><strong>Processed Epoch Count:</strong> 1170</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject01')">
+                    Patient YoungAdultsSubject01 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject01">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject01</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject01</p>
+                    <p><strong>Raw Epoch Count:</strong> 345</p>
+                    <p><strong>Processed Epoch Count:</strong> 1035</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject02')">
+                    Patient YoungAdultsSubject02 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject02">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject02</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject02</p>
+                    <p><strong>Raw Epoch Count:</strong> 411</p>
+                    <p><strong>Processed Epoch Count:</strong> 1233</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject03')">
+                    Patient YoungAdultsSubject03 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject03">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject03</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject03</p>
+                    <p><strong>Raw Epoch Count:</strong> 381</p>
+                    <p><strong>Processed Epoch Count:</strong> 1143</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject04')">
+                    Patient YoungAdultsSubject04 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject04">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject04</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject04</p>
+                    <p><strong>Raw Epoch Count:</strong> 393</p>
+                    <p><strong>Processed Epoch Count:</strong> 1179</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject05')">
+                    Patient YoungAdultsSubject05 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject05">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject05</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject05</p>
+                    <p><strong>Raw Epoch Count:</strong> 390</p>
+                    <p><strong>Processed Epoch Count:</strong> 1170</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject06')">
+                    Patient YoungAdultsSubject06 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject06">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject06</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject06</p>
+                    <p><strong>Raw Epoch Count:</strong> 405</p>
+                    <p><strong>Processed Epoch Count:</strong> 1215</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject07')">
+                    Patient YoungAdultsSubject07 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject07">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject07</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject07</p>
+                    <p><strong>Raw Epoch Count:</strong> 333</p>
+                    <p><strong>Processed Epoch Count:</strong> 999</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject08')">
+                    Patient YoungAdultsSubject08 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject08">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject08</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject08</p>
+                    <p><strong>Raw Epoch Count:</strong> 198</p>
+                    <p><strong>Processed Epoch Count:</strong> 594</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject09')">
+                    Patient YoungAdultsSubject09 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject09">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject09</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject09</p>
+                    <p><strong>Raw Epoch Count:</strong> 420</p>
+                    <p><strong>Processed Epoch Count:</strong> 1260</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject10')">
+                    Patient YoungAdultsSubject10 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject10">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject10</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject10</p>
+                    <p><strong>Raw Epoch Count:</strong> 375</p>
+                    <p><strong>Processed Epoch Count:</strong> 1125</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject11')">
+                    Patient YoungAdultsSubject11 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject11">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject11</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject11</p>
+                    <p><strong>Raw Epoch Count:</strong> 420</p>
+                    <p><strong>Processed Epoch Count:</strong> 1260</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject12')">
+                    Patient YoungAdultsSubject12 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject12">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject12</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject12</p>
+                    <p><strong>Raw Epoch Count:</strong> 393</p>
+                    <p><strong>Processed Epoch Count:</strong> 1179</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject13')">
+                    Patient YoungAdultsSubject13 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject13">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject13</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject13</p>
+                    <p><strong>Raw Epoch Count:</strong> 402</p>
+                    <p><strong>Processed Epoch Count:</strong> 1206</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject14')">
+                    Patient YoungAdultsSubject14 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject14">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject14</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject14</p>
+                    <p><strong>Raw Epoch Count:</strong> 306</p>
+                    <p><strong>Processed Epoch Count:</strong> 918</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject16')">
+                    Patient YoungAdultsSubject16 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject16">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject16</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject16</p>
+                    <p><strong>Raw Epoch Count:</strong> 285</p>
+                    <p><strong>Processed Epoch Count:</strong> 855</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject17')">
+                    Patient YoungAdultsSubject17 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject17">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject17</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject17</p>
+                    <p><strong>Raw Epoch Count:</strong> 381</p>
+                    <p><strong>Processed Epoch Count:</strong> 1143</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject18')">
+                    Patient YoungAdultsSubject18 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject18">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject18</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject18</p>
+                    <p><strong>Raw Epoch Count:</strong> 402</p>
+                    <p><strong>Processed Epoch Count:</strong> 1206</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject19')">
+                    Patient YoungAdultsSubject19 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject19">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject19</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject19</p>
+                    <p><strong>Raw Epoch Count:</strong> 420</p>
+                    <p><strong>Processed Epoch Count:</strong> 1260</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject20')">
+                    Patient YoungAdultsSubject20 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject20">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject20</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject20</p>
+                    <p><strong>Raw Epoch Count:</strong> 387</p>
+                    <p><strong>Processed Epoch Count:</strong> 1161</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject21')">
+                    Patient YoungAdultsSubject21 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject21">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject21</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject21</p>
+                    <p><strong>Raw Epoch Count:</strong> 381</p>
+                    <p><strong>Processed Epoch Count:</strong> 1143</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject22')">
+                    Patient YoungAdultsSubject22 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject22">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject22</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject22</p>
+                    <p><strong>Raw Epoch Count:</strong> 354</p>
+                    <p><strong>Processed Epoch Count:</strong> 1062</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject23')">
+                    Patient YoungAdultsSubject23 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject23">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject23</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject23</p>
+                    <p><strong>Raw Epoch Count:</strong> 378</p>
+                    <p><strong>Processed Epoch Count:</strong> 1134</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject24')">
+                    Patient YoungAdultsSubject24 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject24">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject24</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject24</p>
+                    <p><strong>Raw Epoch Count:</strong> 324</p>
+                    <p><strong>Processed Epoch Count:</strong> 972</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject25')">
+                    Patient YoungAdultsSubject25 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject25">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject25</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject25</p>
+                    <p><strong>Raw Epoch Count:</strong> 420</p>
+                    <p><strong>Processed Epoch Count:</strong> 1260</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject26')">
+                    Patient YoungAdultsSubject26 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject26">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject26</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject26</p>
+                    <p><strong>Raw Epoch Count:</strong> 363</p>
+                    <p><strong>Processed Epoch Count:</strong> 1089</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject27')">
+                    Patient YoungAdultsSubject27 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject27">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject27</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject27</p>
+                    <p><strong>Raw Epoch Count:</strong> 420</p>
+                    <p><strong>Processed Epoch Count:</strong> 1260</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject28')">
+                    Patient YoungAdultsSubject28 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject28">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject28</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject28</p>
+                    <p><strong>Raw Epoch Count:</strong> 378</p>
+                    <p><strong>Processed Epoch Count:</strong> 1134</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientYoungAdultsSubject31')">
+                    Patient YoungAdultsSubject31 - healthy_real
+                </div>
+                <div class="content" id="patientYoungAdultsSubject31">
+                    <p><strong>Patient ID:</strong> YoungAdultsSubject31</p>
+                    <p><strong>Patient Type:</strong> healthy_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\YoungAdultsSubject31</p>
+                    <p><strong>Raw Epoch Count:</strong> 420</p>
+                    <p><strong>Processed Epoch Count:</strong> 1260</p>
+                </div>
+                
+            </div>
+        </div>
+    
+        <div class="section">
+            <h3 onclick="toggleContent('typeepileptic_real')">
+                Epileptic Real Patients
+            </h3>
+            <div class="content" id="typeepileptic_real">
+                
+                <div class="header" onclick="toggleContent('patientP143')">
+                    Patient P143 - epileptic_real
+                </div>
+                <div class="content" id="patientP143">
+                    <p><strong>Patient ID:</strong> P143</p>
+                    <p><strong>Patient Type:</strong> epileptic_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\P143</p>
+                    <p><strong>Raw Epoch Count:</strong> {'IED_present': 933, 'IED_absent': 0}</p>
+                    <p><strong>Processed Epoch Count:</strong> 2799</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientP249')">
+                    Patient P249 - epileptic_real
+                </div>
+                <div class="content" id="patientP249">
+                    <p><strong>Patient ID:</strong> P249</p>
+                    <p><strong>Patient Type:</strong> epileptic_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\P249</p>
+                    <p><strong>Raw Epoch Count:</strong> {'IED_present': 1410, 'IED_absent': 0}</p>
+                    <p><strong>Processed Epoch Count:</strong> 4230</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientP310')">
+                    Patient P310 - epileptic_real
+                </div>
+                <div class="content" id="patientP310">
+                    <p><strong>Patient ID:</strong> P310</p>
+                    <p><strong>Patient Type:</strong> epileptic_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\P310</p>
+                    <p><strong>Raw Epoch Count:</strong> {'IED_present': 333, 'IED_absent': 0}</p>
+                    <p><strong>Processed Epoch Count:</strong> 999</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientP311')">
+                    Patient P311 - epileptic_real
+                </div>
+                <div class="content" id="patientP311">
+                    <p><strong>Patient ID:</strong> P311</p>
+                    <p><strong>Patient Type:</strong> epileptic_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\P311</p>
+                    <p><strong>Raw Epoch Count:</strong> {'IED_present': 99, 'IED_absent': 0}</p>
+                    <p><strong>Processed Epoch Count:</strong> 297</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientP312')">
+                    Patient P312 - epileptic_real
+                </div>
+                <div class="content" id="patientP312">
+                    <p><strong>Patient ID:</strong> P312</p>
+                    <p><strong>Patient Type:</strong> epileptic_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\P312</p>
+                    <p><strong>Raw Epoch Count:</strong> {'IED_present': 111, 'IED_absent': 0}</p>
+                    <p><strong>Processed Epoch Count:</strong> 333</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientP314')">
+                    Patient P314 - epileptic_real
+                </div>
+                <div class="content" id="patientP314">
+                    <p><strong>Patient ID:</strong> P314</p>
+                    <p><strong>Patient Type:</strong> epileptic_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\P314</p>
+                    <p><strong>Raw Epoch Count:</strong> {'IED_present': 237, 'IED_absent': 0}</p>
+                    <p><strong>Processed Epoch Count:</strong> 711</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientP315')">
+                    Patient P315 - epileptic_real
+                </div>
+                <div class="content" id="patientP315">
+                    <p><strong>Patient ID:</strong> P315</p>
+                    <p><strong>Patient Type:</strong> epileptic_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\P315</p>
+                    <p><strong>Raw Epoch Count:</strong> {'IED_present': 282, 'IED_absent': 0}</p>
+                    <p><strong>Processed Epoch Count:</strong> 846</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientP317')">
+                    Patient P317 - epileptic_real
+                </div>
+                <div class="content" id="patientP317">
+                    <p><strong>Patient ID:</strong> P317</p>
+                    <p><strong>Patient Type:</strong> epileptic_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\P317</p>
+                    <p><strong>Raw Epoch Count:</strong> {'IED_present': 180, 'IED_absent': 0}</p>
+                    <p><strong>Processed Epoch Count:</strong> 540</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientP322')">
+                    Patient P322 - epileptic_real
+                </div>
+                <div class="content" id="patientP322">
+                    <p><strong>Patient ID:</strong> P322</p>
+                    <p><strong>Patient Type:</strong> epileptic_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\P322</p>
+                    <p><strong>Raw Epoch Count:</strong> {'IED_present': 1035, 'IED_absent': 0}</p>
+                    <p><strong>Processed Epoch Count:</strong> 3105</p>
+                </div>
+                
+                <div class="header" onclick="toggleContent('patientP323')">
+                    Patient P323 - epileptic_real
+                </div>
+                <div class="content" id="patientP323">
+                    <p><strong>Patient ID:</strong> P323</p>
+                    <p><strong>Patient Type:</strong> epileptic_real</p>
+                    <p><strong>Base Folder Path:</strong> D:\DIPLOMKA_DATASET\P323</p>
+                    <p><strong>Raw Epoch Count:</strong> {'IED_present': 84, 'IED_absent': 0}</p>
+                    <p><strong>Processed Epoch Count:</strong> 252</p>
+                </div>
+                
+            </div>
+        </div>
+    
+</div>
+        <div class="header" onclick="toggleContent('dataSummary')">Data Summary</div>
+<div class="content" id="dataSummary">
+    <div class="section" style="font-size: 16px; line-height: 1.6;">
+        <!-- Total Patients -->
+        <p style="margin: 10px 0;"><strong>Total Number of Patients:</strong> 63</p>
+        <ul style="margin-left: 20px; list-style-type: none; padding: 0;">
+            <li style="margin: 5px 0;"><strong>Number of Epileptic Real Patients:</strong> 10</li>
+            <li style="margin: 5px 0;"><strong>Number of Epileptic Simulated Patients:</strong> </li>
+            <li style="margin: 5px 0;"><strong>Number of Healthy Real Patients:</strong> 53</li>
+            <li style="margin: 5px 0;"><strong>Number of Healthy Simulated Patients:</strong> </li>
+        </ul>
+
+        <!-- Raw Epochs -->
+        <p style="margin: 20px 0 10px;"><strong>Total Number of Raw Epochs:</strong> 24108</p>
+        <ul style="margin-left: 20px; list-style-type: none; padding: 0;">
+            <li style="margin: 5px 0;"><strong>Total Number of IED Raw Epochs:</strong> 4704</li>
+            <li style="margin: 5px 0;"><strong>Total Number of Non-IED Raw Epochs:</strong> 19404</li>
+        </ul>
+
+        <!-- Processed Epochs -->
+        <p style="margin: 20px 0 10px;"><strong>Total Number of Processed Epochs:</strong> 72324</p>
+        <ul style="margin-left: 20px; list-style-type: none; padding: 0;">
+            <li style="margin: 5px 0;"><strong>Total Number of IED Processed Epochs:</strong> 14112</li>
+            <li style="margin: 5px 0;"><strong>Total Number of Non-IED Processed Epochs:</strong> 58212</li>
+        </ul>
+
+        <!-- Embed Charts -->
+        <div class="chart" style="margin-top: 25px;">
+            <h3 onclick="toggleContent('barChart')">Number of Patients by Type</h3>
+            <div class="content" id="barChart">
+                <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>                <div id="13cb4350-8333-4cd4-96ef-8b49191d4900" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("13cb4350-8333-4cd4-96ef-8b49191d4900")) {                    Plotly.newPlot(                        "13cb4350-8333-4cd4-96ef-8b49191d4900",                        [{"marker":{"color":"skyblue"},"x":["healthy_real","epileptic_real"],"y":[53,10],"type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"text":"Number of Patients by Type"},"xaxis":{"title":{"text":"Patient Type"}},"yaxis":{"title":{"text":"Number of Patients"}}},                        {"responsive": true}                    )                };                            </script>        </div>
+            </div>
+        </div>
+
+        <div class="chart" style="margin-top: 25px;">
+            <h3 onclick="toggleContent('rawEpochChart')">Raw Epochs by Patient Type</h3>
+            <div class="content" id="rawEpochChart">
+                <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>                <div id="6b8a787e-cf92-421c-a45b-900d871cd4b9" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("6b8a787e-cf92-421c-a45b-900d871cd4b9")) {                    Plotly.newPlot(                        "6b8a787e-cf92-421c-a45b-900d871cd4b9",                        [{"marker":{"color":"orange"},"x":["healthy_real","epileptic_real"],"y":[19404,4704],"type":"bar"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"text":"Raw Epochs by Patient Type"},"xaxis":{"title":{"text":"Patient Type"}},"yaxis":{"title":{"text":"Total Raw Epochs"}}},                        {"responsive": true}                    )                };                            </script>        </div>
+            </div>
+        </div>
+
+        <div class="chart" style="margin-top: 25px;">
+            <h3 onclick="toggleContent('rawEpochsPieChart')">Raw Epoch Distribution</h3>
+            <div class="content" id="rawEpochsPieChart">
+                <div>                            <div id="9ee3cafe-13e0-47dd-b996-6ae38be60e23" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("9ee3cafe-13e0-47dd-b996-6ae38be60e23")) {                    Plotly.newPlot(                        "9ee3cafe-13e0-47dd-b996-6ae38be60e23",                        [{"hole":0.3,"labels":["Raw IED Epochs","Raw Non-IED Epochs"],"marker":{"colors":["#ff9999","#66b3ff"]},"values":[4704,19404],"type":"pie"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"text":"Distribution of Raw IED and Non-IED Epochs"}},                        {"responsive": true}                    )                };                            </script>        </div>
+            </div>
+        </div>
+        
+        <div class="chart" style="margin-top: 25px;">
+            <h3 onclick="toggleContent('processedEpochsPieChart')">Processed Epoch Distribution</h3>
+            <div class="content" id="processedEpochsPieChart">
+                <div>                            <div id="d8929732-5bf5-4222-b575-7dab38123a3e" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("d8929732-5bf5-4222-b575-7dab38123a3e")) {                    Plotly.newPlot(                        "d8929732-5bf5-4222-b575-7dab38123a3e",                        [{"hole":0.3,"labels":["Processed IED Epochs","Processed Non-IED Epochs"],"marker":{"colors":["#ffa07a","#87ceeb"]},"values":[14112,58212],"type":"pie"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"text":"Distribution of Processed IED and Non-IED Epochs"}},                        {"responsive": true}                    )                };                            </script>        </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+        <div class="header" onclick="toggleContent('nnOutput')">Neural Network Output</div>
+<div class="content" id="nnOutput">
+    <div class="section">
+        <!-- Final Metrics Section -->
+        <h3 class="header" onclick="toggleContent('finalMetrics')">Final Metrics</h3>
+        <div class="content" id="finalMetrics">
+            <div class="metrics-container">
+                <div class="metric">
+                    <span class="metric-label"><strong>AUC:</strong></span>
+                    <span class="metric-value">0.5000</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label"><strong>Accuracy:</strong></span>
+                    <span class="metric-value">0.8511</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label"><strong>Precision:</strong></span>
+                    <span class="metric-value">0.0000</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label"><strong>Recall:</strong></span>
+                    <span class="metric-value">0.0000</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label"><strong>F1 Score:</strong></span>
+                    <span class="metric-value">0.0000</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ROC Curve Section -->
+        <h3 onclick="toggleContent('rocCurve')">ROC Curve</h3>
+        <div class="content" id="rocCurve">
+            <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>                <div id="63138df7-a7dd-4b78-a74e-aa76e00a63d2" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("63138df7-a7dd-4b78-a74e-aa76e00a63d2")) {                    Plotly.newPlot(                        "63138df7-a7dd-4b78-a74e-aa76e00a63d2",                        [{"line":{"color":"blue","width":2},"mode":"lines","name":"ROC Curve (AUC = 0.5000)","x":[0.0,1.0],"y":[0.0,1.0],"type":"scatter"},{"line":{"color":"red","dash":"dash"},"mode":"lines","name":"Random Guess","x":[0,1],"y":[0,1],"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"text":"Receiver Operating Characteristic (ROC) Curve"},"xaxis":{"title":{"text":"False Positive Rate"}},"yaxis":{"title":{"text":"True Positive Rate"}}},                        {"responsive": true}                    )                };                            </script>        </div>
+        </div>
+
+        <!-- Loss Curve Section -->
+        <h3 onclick="toggleContent('lossCurve')">Loss Over Epochs</h3>
+        <div class="content" id="lossCurve">
+            <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>                <div id="8ccac1f0-cd17-4f49-9ec6-788fa147f334" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("8ccac1f0-cd17-4f49-9ec6-788fa147f334")) {                    Plotly.newPlot(                        "8ccac1f0-cd17-4f49-9ec6-788fa147f334",                        [{"line":{"color":"blue"},"mode":"lines+markers","name":"Training Loss","x":[1,2],"y":[1861.0743407993405,0.520026703675588],"type":"scatter"},{"line":{"color":"orange"},"mode":"lines+markers","name":"Testing Loss","x":[1,2],"y":[0.42480312750576443,0.4249844927780376],"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"text":"Training and Testing Loss Curve"},"xaxis":{"title":{"text":"Epochs"}},"yaxis":{"title":{"text":"Loss"}}},                        {"responsive": true}                    )                };                            </script>        </div>
+        </div>
+
+        <!-- Accuracy Curve Section -->
+        <h3 onclick="toggleContent('accuracyCurve')">Accuracy Over Epochs</h3>
+        <div class="content" id="accuracyCurve">
+            <div>                        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>                <div id="42d0b3ef-5a02-4836-9a9c-65502f768db0" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script type="text/javascript">                                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("42d0b3ef-5a02-4836-9a9c-65502f768db0")) {                    Plotly.newPlot(                        "42d0b3ef-5a02-4836-9a9c-65502f768db0",                        [{"line":{"color":"green"},"mode":"lines+markers","name":"Training Accuracy","x":[1,2],"y":[0.7509680724438326,0.7865954715528606],"type":"scatter"},{"line":{"color":"purple"},"mode":"lines+markers","name":"Testing Accuracy","x":[1,2],"y":[0.851950698757764,0.851950698757764],"type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"#C8D4E3","linecolor":"#C8D4E3","minorgridcolor":"#C8D4E3","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"#C8D4E3"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""},"bgcolor":"white","radialaxis":{"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"yaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"},"zaxis":{"backgroundcolor":"white","gridcolor":"#DFE8F3","gridwidth":2,"linecolor":"#EBF0F8","showbackground":true,"ticks":"","zerolinecolor":"#EBF0F8"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"baxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""},"bgcolor":"white","caxis":{"gridcolor":"#DFE8F3","linecolor":"#A2B1C6","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"#EBF0F8","linecolor":"#EBF0F8","ticks":"","title":{"standoff":15},"zerolinecolor":"#EBF0F8","zerolinewidth":2}}},"title":{"text":"Training and Testing Accuracy Curve"},"xaxis":{"title":{"text":"Epochs"}},"yaxis":{"title":{"text":"Accuracy"}}},                        {"responsive": true}                    )                };                            </script>        </div>
+        </div>
+    </div>
+</div>
+    </div>
+</body>
+</html>

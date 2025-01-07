@@ -1,0 +1,24 @@
+<div class="header" onclick="toggleContent('inputData')">Input Data</div>
+<div class="content" id="inputData">
+    {% for patient_type, patients in patients_by_type.items() %}
+        <div class="section">
+            <h3 onclick="toggleContent('type{{ patient_type }}')">
+                {{ patient_type.replace('_', ' ').title() }} Patients
+            </h3>
+            <div class="content" id="type{{ patient_type }}">
+                {% for patient in patients %}
+                <div class="header" onclick="toggleContent('patient{{ patient.id }}')">
+                    Patient {{ patient.id }} - {{ patient.patient_type.value }}
+                </div>
+                <div class="content" id="patient{{ patient.id }}">
+                    <p><strong>Patient ID:</strong> {{ patient.id }}</p>
+                    <p><strong>Patient Type:</strong> {{ patient.patient_type.value }}</p>
+                    <p><strong>Base Folder Path:</strong> {{ patient.base_folder_path }}</p>
+                    <p><strong>Raw Epoch Count:</strong> {{ patient.raw_epoch_count }}</p>
+                    <p><strong>Processed Epoch Count:</strong> {{ patient.processed_epoch_count }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
