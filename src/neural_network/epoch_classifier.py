@@ -53,7 +53,7 @@ class EpochClassifier:
             [
                 f
                 for f in os.listdir(epoch_folder)
-                if f.startswith("epoch_") and f.endswith(".npy")
+                if f.endswith(".npy")
             ]
         )
 
