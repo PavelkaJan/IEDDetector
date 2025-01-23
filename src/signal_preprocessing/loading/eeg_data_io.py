@@ -150,45 +150,81 @@ class EEGDataIO:
 
     @staticmethod
     def save_epoch(
-        epoch: np.ndarray, output_folder_path: str, file_extenstion="npy"
+        epoch: np.ndarray,
+        output_folder_path: str,
+        file_extenstion="npy",
+        use_original_file_name: bool = True,
+        original_file_name: str = None,
     ) -> None:
         """
         Saves the provided epoch to a file in the specified folder. The file can be saved
         as either a `.npy` (NumPy binary format) or a `.mat` (MATLAB format) file.
 
-        The naming of the files is dynamic, ensuring that new files do not overwrite
-        existing ones in the directory. The files are named sequentially in the format
-        `epoch_<index>.<extension>`.
+        The function supports two modes for naming the saved files:
+        1. **Using Original File Name**: If `use_original_file_name` is set to `True`,
+           the file will be saved with the name provided in `original_file_name`.
+           Recommended for Linux distributions.
+        2. **Dynamic Sequential Naming**: If `use_original_file_name` is `False`, the file
+           will be named sequentially as `epoch_<index>.<extension>` to avoid overwriting
+           existing files in the directory.
 
         Args:
             epoch (np.ndarray): An EEG epoch to save. The data should be provided as a NumPy array.
             output_folder_path (str): The directory path where the epoch file will be saved.
-            file_extenstion (str): The file format to save the epoch in. Options are:
+            file_extenstion (str): The file format to save the epoch in. Supported formats are:
                 - "npy": Saves the epoch in NumPy's binary `.npy` format.
                 - "mat": Saves the epoch in MATLAB's `.mat` format with the variable name `F`.
-                Default is "npy".
+              Default is "npy".
+            use_original_file_name (bool): If `True`, saves the file using the name specified
+              in `original_file_name`. If `False`, the file will be named dynamically as
+              `epoch_<index>.<extension>`. Default is `True`.
+            original_file_name (str): The name to use for the saved file if `use_original_file_name`
+              is set to `True`. This argument is ignored if `use_original_file_name` is `False`.
+
         """
+        if use_original_file_name and not original_file_name:
+            logger.error(
+                "An 'original_file_name' must be provided if 'use_original_file_name' is True."
+            )
+            raise ValueError(
+                "An 'original_file_name' must be provided if 'use_original_file_name' is True."
+            )
+
         output_folder_path = Path(output_folder_path)
         output_folder_path.mkdir(parents=True, exist_ok=True)
 
-        existing_epochs = sorted(output_folder_path.glob(f"epoch_*.{file_extenstion}"))
-        if existing_epochs:
-            # Extract the highest epoch number from existing files
-            last_epoch_num = max(
-                int(file.stem.split("_")[1]) for file in existing_epochs
+        if use_original_file_name:
+            if file_extenstion == "npy":
+                file_name = output_folder_path / f"{original_file_name}.npy"
+                np.save(file_name, epoch)
+            elif file_extenstion == "mat":
+                file_name = output_folder_path / f"{original_file_name}.mat"
+                savemat(file_name, {"F": epoch})
+
+            logger.info(
+                f"Epoch {original_file_name} was saved in '{output_folder_path}'. The shape is {epoch.shape}."
             )
-            start_index = last_epoch_num + 1
         else:
-            start_index = 1
+            existing_epochs = sorted(
+                output_folder_path.glob(f"epoch_*.{file_extenstion}")
+            )
+            if existing_epochs:
+                # Extract the highest epoch number from existing files
+                last_epoch_num = max(
+                    int(file.stem.split("_")[1]) for file in existing_epochs
+                )
+                start_index = last_epoch_num + 1
+            else:
+                start_index = 1
 
-        # Save the provided epoch
-        if file_extenstion == "npy":
-            file_name = output_folder_path / f"epoch_{start_index}.npy"
-            np.save(file_name, epoch)
-        elif file_extenstion == "mat":
-            file_name = output_folder_path / f"epoch_{start_index}.mat"
-            savemat(file_name, {"F": epoch})
+            # Save the provided epoch
+            if file_extenstion == "npy":
+                file_name = output_folder_path / f"epoch_{start_index}.npy"
+                np.save(file_name, epoch)
+            elif file_extenstion == "mat":
+                file_name = output_folder_path / f"epoch_{start_index}.mat"
+                savemat(file_name, {"F": epoch})
 
-        logger.info(
-            f"Epoch number {start_index} was saved as '{file_name.name}' in '{output_folder_path}'. The shape is {epoch.shape}."
-        )
+            logger.info(
+                f"Epoch number {start_index} was saved as '{file_name.name}' in '{output_folder_path}'. The shape is {epoch.shape}."
+            )

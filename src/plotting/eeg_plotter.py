@@ -59,6 +59,9 @@ class EEGPlotter:
         info = mne.create_info(
             ch_names=channel_names, sfreq=fs, ch_types=["eeg"] * num_channels
         )
+
+        eeg_signal = -1 * eeg_signal # To keep the same orientation as in Brainstorm
+    
         raw = mne.io.RawArray(eeg_signal, info)
         raw.plot(block=True, scalings="auto")
 

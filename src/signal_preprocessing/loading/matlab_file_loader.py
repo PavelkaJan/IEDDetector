@@ -77,6 +77,8 @@ class MatlabFileLoader(EEGFileLoader):
         Raises:
             KeyError: If the 'data' key is not present in the MATLAB file.
         """
+        file_name = Path(file_path).stem
+
         matlab_data = sio.loadmat(file_path)
 
         # Direct loading from Brainstorm
@@ -88,7 +90,7 @@ class MatlabFileLoader(EEGFileLoader):
             )
             raise KeyError("The key 'data' was not found in the MATLAB file.")
 
-        return data
+        return data, file_name
 
     def _load_matlab_file_v73(self) -> dict:
         """
@@ -113,14 +115,14 @@ class MatlabFileLoader(EEGFileLoader):
             for i, key in enumerate(path):
                 if key not in current_data:
                     raise KeyError(
-                        f"Matlab file does not contain '{'/'.join(path[:i+1])}'. This variable should contain {description}."
+                        f"Matlab file does not contain '{'/'.join(path[: i + 1])}'. This variable should contain {description}."
                     )
                 value = current_data[key]
                 if (isinstance(value, np.ndarray) and value.size == 0) or (
                     isinstance(value, list) and len(value) == 0
                 ):
                     raise KeyError(
-                        f"Matlab file contains an empty '{'/'.join(path[:i+1])}'. This variable should contain {description}."
+                        f"Matlab file contains an empty '{'/'.join(path[: i + 1])}'. This variable should contain {description}."
                     )
                 current_data = current_data[key]
 

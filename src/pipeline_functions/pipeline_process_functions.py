@@ -44,24 +44,24 @@ def process_epoch(
     """
     logger.info(f"Processing {epoch_file_path} for patient {patient.id}")
 
-    raw_epoch = MatlabFileLoader.load_single_mat_epoch(str(epoch_file_path))
+    raw_epoch, original_epoch_name = MatlabFileLoader.load_single_mat_epoch(str(epoch_file_path))
 
     processed_signal = preprocess_signal(patient, raw_epoch)
 
     ca_montage_signal = compute_common_average_montage(processed_signal, patient)
     ca_montage_signal = EEGProcessor.add_dimension_to_eeg_signal(ca_montage_signal)
     EEGValidator.validate_input_epoch_to_nn(epoch=ca_montage_signal, patient=patient)
-    save_epoch(ca_montage_signal, patient, "CA", ied_state)
+    save_epoch(ca_montage_signal, patient, "CA", ied_state, original_epoch_name)
 
     db_montage_signal = compute_double_banana_montage(processed_signal, patient)
     db_montage_signal = EEGProcessor.add_dimension_to_eeg_signal(db_montage_signal)
     EEGValidator.validate_input_epoch_to_nn(epoch=db_montage_signal, patient=patient)
-    save_epoch(db_montage_signal, patient, "DB", ied_state)
+    save_epoch(db_montage_signal, patient, "DB", ied_state, original_epoch_name)
 
     sd_montage_signal = compute_source_derivation_montage(processed_signal, patient)
     sd_montage_signal = EEGProcessor.add_dimension_to_eeg_signal(sd_montage_signal)
     EEGValidator.validate_input_epoch_to_nn(epoch=sd_montage_signal, patient=patient)
-    save_epoch(sd_montage_signal, patient, "SD", ied_state)
+    save_epoch(sd_montage_signal, patient, "SD", ied_state, original_epoch_name)
 
     logger.info(
         f"Processed and saved all montages for {epoch_file_path} for patient {patient.id}"
@@ -73,6 +73,7 @@ def save_epoch(
     patient: Patient,
     montage_name: str,
     ied_state: Optional[str] = None,
+    original_file_name: Optional[str] = None
 ) -> None:
     """
     Saves the processed EEG epoch with a specific montage to the appropriate folder.
@@ -82,11 +83,14 @@ def save_epoch(
         patient (Patient): The patient object.
         montage_name (str): The montage name ('CA', 'DB', 'SD').
         ied_state (Optional[str]): 'IED_present' or 'IED_absent' for epileptic_real patients.
+        original_file_name (Optional[str]): The name to use for saving the file. If not
+            provided, the function will use a dynamic naming strategy based on the
+            EEGDataIO's 'save_epoch' logic. Default is `None`.
     """
     save_folder = determine_save_folder(patient, montage_name, ied_state)
     save_folder.mkdir(parents=True, exist_ok=True)
 
-    EEGDataIO.save_epoch(signal, save_folder)
+    EEGDataIO.save_epoch(signal, save_folder, file_extenstion="npy", use_original_file_name=True, original_file_name=original_file_name)
     logger.info(
         f"Saved {montage_name} montage epoch for patient {patient.id} in folder: {save_folder}"
     )
